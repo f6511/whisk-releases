@@ -129,5 +129,24 @@
         sparkle:edSignature="DtOMDImSjaKO3XaOJXzulM3zfcYi9i3Roj4rqd3dyXlZRqy8eqd1FRBZ5i1+nd3J4GhKljmqrPY2brBDgc9nAg=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.1.0-dev.5</title>
+      <pubDate>Sun, 10 May 2026 21:12:02 +0000</pubDate>
+      <sparkle:version>118</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-dev.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.0-dev.5](https://github.com/f6511/whisk/compare/v0.1.0-dev.4...v0.1.0-dev.5) (2026-05-10)
+
+### Features
+
+* **branding:** show whisk icon on About + EventSnap custom symbol ([4031b06](https://github.com/f6511/whisk/commit/4031b06133b8e2deee251188181e653453cd3f00))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.0-dev.5/whisk-0.1.0-dev.5.zip"
+        sparkle:version="118"
+        sparkle:shortVersionString="0.1.0-dev.5"
+        length="3973766"
+        sparkle:edSignature="V6JkFFNaFC1vGCRbQ4JumaF3QzW+7uk9JwgyV45S5OdCEDRwFD9XHSoaoex1TeezAfN8GvA/ztTBaDnf8kBBBg=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
