@@ -104,5 +104,30 @@
         length="3957276"
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.1.0-dev.4</title>
+      <pubDate>Sun, 10 May 2026 20:54:47 +0000</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-dev.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.0-dev.4](https://github.com/f6511/whisk/compare/v0.1.0-dev.3...v0.1.0-dev.4) (2026-05-10)
+
+### Features
+
+* **release:** inject SUPublicEDKey into Info.plist before signing ([7a9a749](https://github.com/f6511/whisk/commit/7a9a7498c570cbc71424c6fc9d41be80563a5ba3))
+
+### Bug Fixes
+
+* **ci:** download Sparkle SDK tarball for sign_update ([c7e495b](https://github.com/f6511/whisk/commit/c7e495b6b23fcfed88aa5c7a54e1af0fa95bca32))
+* **ci:** surface sign_update output before failing the EdDSA step ([f3fb45c](https://github.com/f6511/whisk/commit/f3fb45c804d98733626a3df1a0e82a23701e5fe4))
+* **release:** validate Sparkle private key before versioning ([dafcaa1](https://github.com/f6511/whisk/commit/dafcaa1921e839fdf4bf737470f635a06fcea7f8))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.0-dev.4/whisk-0.1.0-dev.4.zip"
+        sparkle:version="114"
+        sparkle:shortVersionString="0.1.0-dev.4"
+        length="3957326"
+        sparkle:edSignature="DtOMDImSjaKO3XaOJXzulM3zfcYi9i3Roj4rqd3dyXlZRqy8eqd1FRBZ5i1+nd3J4GhKljmqrPY2brBDgc9nAg=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
