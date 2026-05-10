@@ -148,5 +148,24 @@
         sparkle:edSignature="V6JkFFNaFC1vGCRbQ4JumaF3QzW+7uk9JwgyV45S5OdCEDRwFD9XHSoaoex1TeezAfN8GvA/ztTBaDnf8kBBBg=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.1.0-dev.6</title>
+      <pubDate>Sun, 10 May 2026 21:26:20 +0000</pubDate>
+      <sparkle:version>122</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-dev.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.0-dev.6](https://github.com/f6511/whisk/compare/v0.1.0-dev.5...v0.1.0-dev.6) (2026-05-10)
+
+### Features
+
+* **about:** move updates to About + theme-color icon + downgrade banner ([b0cc08b](https://github.com/f6511/whisk/commit/b0cc08b6a1ffe723507f7ba07ef739c26baff5e1))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.0-dev.6/whisk-0.1.0-dev.6.zip"
+        sparkle:version="122"
+        sparkle:shortVersionString="0.1.0-dev.6"
+        length="3979546"
+        sparkle:edSignature="a5LvPKe7c+RwJcq9PAA2bPLOngHLvW3DZNJiU1hKpgualYr5BJKqFVkKFWxEhNMVxWB2Bn5Jp8rj1jzRVxlrCA=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
