@@ -64,5 +64,25 @@
         length="743192"
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.1.0-dev.2</title>
+      <pubDate>Sun, 10 May 2026 18:15:20 +0000</pubDate>
+      <sparkle:version>95</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-dev.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.0-dev.2](https://github.com/f6511/whisk/compare/v0.1.0-dev.1...v0.1.0-dev.2) (2026-05-10)
+
+### Features
+
+* **api-keys:** switch to sandbox-container file storage ([dc2b685](https://github.com/f6511/whisk/commit/dc2b68552dc5d25cfabc408f9d4133ec88a0c8eb))
+* **branding:** use whisk symbol as the macOS app icon ([77cfd85](https://github.com/f6511/whisk/commit/77cfd85ded73f3a2bfc941f6c668935ddb0c8084))
+* icon composer AppIcon ([3f843d7](https://github.com/f6511/whisk/commit/3f843d7acad595c1c728ff96971cc106e3e079af))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.0-dev.2/whisk-0.1.0-dev.2.zip"
+        sparkle:version="95"
+        sparkle:shortVersionString="0.1.0-dev.2"
+        length="2577290"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
