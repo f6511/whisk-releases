@@ -78,5 +78,25 @@
         sparkle:edSignature="/8V5oYk8XAyHRw/wT8EvBvZQZ7XiyNFEkfft/bIzDRO0T63YaxhhoK9UXEX4xvdhRpv+uEMMXLNg1UL5p1GcDw=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.1.1</title>
+      <pubDate>Sun, 10 May 2026 21:56:23 +0000</pubDate>
+      <sparkle:version>130</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.1](https://github.com/f6511/whisk/compare/v0.1.0...v0.1.1) (2026-05-10)
+
+### Bug Fixes
+
+* **release:** publish stable release script fix ([66ee80c](https://github.com/f6511/whisk/commit/66ee80c39df65918915ce05daefeb587c1ec83c5))
+* **release:** publish stable release script fix ([c41531f](https://github.com/f6511/whisk/commit/c41531f150613be323dda99538b4ab90617259f3))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.1/whisk-0.1.1.zip"
+        sparkle:version="130"
+        sparkle:shortVersionString="0.1.1"
+        length="3979538"
+        sparkle:edSignature="yh3EDoq+WCwngnYHwbd/9JtAAquC5FPpUP5+mrveAhZ/wasygdPKgdXXbOzenWVRb45ure6PahGdjxSMwirsCw=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
