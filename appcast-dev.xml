@@ -84,5 +84,25 @@
         length="2577290"
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.1.0-dev.3</title>
+      <pubDate>Sun, 10 May 2026 18:43:19 +0000</pubDate>
+      <sparkle:version>101</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-dev.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.0-dev.3](https://github.com/f6511/whisk/compare/v0.1.0-dev.2...v0.1.0-dev.3) (2026-05-10)
+
+### Features
+
+* **release:** optionally EdDSA-sign zips when secret is configured ([2fcc66b](https://github.com/f6511/whisk/commit/2fcc66b66b68d3a3ea4c812b3987c247b2399af6))
+* update logo ([e0f447b](https://github.com/f6511/whisk/commit/e0f447bfe878b33eb0ccd31c563bcf145a0f5738))
+* **updater:** integrate Sparkle 2 with stable / dev channels ([5d175fb](https://github.com/f6511/whisk/commit/5d175fbabb0998526ec8cb80945bc9893010b3bd))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.0-dev.3/whisk-0.1.0-dev.3.zip"
+        sparkle:version="101"
+        sparkle:shortVersionString="0.1.0-dev.3"
+        length="3957276"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
