@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>whisk updates (dev)</title>
+    <link>https://github.com/f6511/whisk-releases</link>
+    <description>whisk auto-update feed</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.1.0-dev.1</title>
+      <pubDate>Sun, 10 May 2026 17:23:54 +0000</pubDate>
+      <sparkle:version>90</sparkle:version>
+      <sparkle:shortVersionString>0.1.0-dev.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.1.0-dev.1](https://github.com/f6511/whisk/compare/v0.0.0...v0.1.0-dev.1) (2026-05-10)
+
+### Features
+
+* **api-keys:** add APIKeyStore + Keychain and Mock impls ([d7b1e88](https://github.com/f6511/whisk/commit/d7b1e88c493794d0e6773f8ce2632b9ed860eb23))
+* **build:** drive MARKETING_VERSION from Version.xcconfig ([3c33b7e](https://github.com/f6511/whisk/commit/3c33b7ecfc1407541c8473a1362ebb97bcf8536d))
+* **calendar:** add CalendarService with ICS-only flow ([094b672](https://github.com/f6511/whisk/commit/094b6729f5717e998224a730e9ae0b8cabeb1f6e))
+* **capture:** add CaptureService with screencapture-based impl ([af25dcb](https://github.com/f6511/whisk/commit/af25dcb7e515ac9709b50cfc1dd5fb3ee7704db1))
+* **eventsnap:** floating HUD toast with OCR/LLM progress ([1a813d0](https://github.com/f6511/whisk/commit/1a813d0afc319b3a73365deff1ae12df1465cc0f))
+* **eventsnap:** minimal HUD copy and single-width banner ([60c19f7](https://github.com/f6511/whisk/commit/60c19f7d65ac18f3b2d100ce1745242d6058630b))
+* **eventsnap:** primary capture flow ([fccbe0a](https://github.com/f6511/whisk/commit/fccbe0aeb8c152e9f26aaa83e1e56157f5c6b7ff))
+* **eventsnap:** wire EventSnapTool to manager + global shortcut ([50aaebf](https://github.com/f6511/whisk/commit/50aaebf002c116c510e817ae49b9db52d40e3b6b))
+* **history:** add HistoryService backed by SwiftData ([7336e85](https://github.com/f6511/whisk/commit/7336e851b08d5b9f11916fda71ae05d28a660b3f))
+* **history:** move EventSnap history into settings ([417c461](https://github.com/f6511/whisk/commit/417c46198302175e38a397a6b44a3a032cdf44b6))
+* **history:** move EventSnap history into settings ([cbe4731](https://github.com/f6511/whisk/commit/cbe47310944ae85c9a226303fe4f32586c8946af))
+* **llm:** add LLMService + OpenAIService + Mock + Prompts ([f340cab](https://github.com/f6511/whisk/commit/f340cab077330387d2519547b571ec0748838a23))
+* **logging:** add Logger protocol with OSLog and Console services ([08a3eaf](https://github.com/f6511/whisk/commit/08a3eaf749bf4f90f01df4c1b585d38bd43cd120))
+* **managers:** add CalendarManager wrapping CalendarService ([54a1a1a](https://github.com/f6511/whisk/commit/54a1a1afb527a8dffd4d2ba6fa6e1e3d169b4648))
+* **managers:** add CaptureManager wrapping CaptureService ([892d5f4](https://github.com/f6511/whisk/commit/892d5f4a220008678573c15ce1fe0c15b29aad0a))
+* **managers:** add HistoryManager wrapping HistoryService ([d7e64c7](https://github.com/f6511/whisk/commit/d7e64c765885d208bcc38141a71d169b4b22f6e1))
+* **managers:** add LLMManager wrapping LLMService ([b9b251d](https://github.com/f6511/whisk/commit/b9b251d5ed77bbaffad5436cb96adc67a07c32d5))
+* **managers:** add ShortcutsManager wrapping ShortcutsService ([6d9313a](https://github.com/f6511/whisk/commit/6d9313acb1533b4a6a245dded0ed0a29a4be15c8))
+* **menu-bar:** MenuBarController with per-tool quick actions ([771cd59](https://github.com/f6511/whisk/commit/771cd592780aee5bc29503c65012ba4a200dfb4c))
+* **menubar:** swap fork.knife for custom whisk icon ([c004040](https://github.com/f6511/whisk/commit/c004040594d6d043135c41f8cc1115ff8e4e8c9d))
+* **models:** port EventDetails / RecurrenceRule / AlertTime / EventSource ([4786e44](https://github.com/f6511/whisk/commit/4786e44aed87b7bc73fd3cf716ab40d985944586))
+* **ocr:** add OCRService backed by Vision framework ([f071285](https://github.com/f6511/whisk/commit/f071285fc3eaa8faa2c4ac39596db20b0b1db28f))
+* **release:** add release workflow and public-repo publish scripts ([6006a51](https://github.com/f6511/whisk/commit/6006a511f138be97985fe6618160d89a6907804f))
+* **release:** add semantic-release configuration ([7fc1c0b](https://github.com/f6511/whisk/commit/7fc1c0b599bdfd8bbe79a1b0cdafabae2fb956bd))
+* **root:** add core dependency-injection scaffolding ([72810b7](https://github.com/f6511/whisk/commit/72810b707b6d3d0551a2aa6ec0fb917cbaec1c76))
+* **settings:** add AppSettings + SettingsStore ([c0f55df](https://github.com/f6511/whisk/commit/c0f55dfeacd8adc07aea118cb98147283e9239f6))
+* **settings:** group by provider and add OpenAI model picker ([55cc1ac](https://github.com/f6511/whisk/commit/55cc1aca96f39e304a488849f9e5a967dcb2036a))
+* **settings:** OpenAI API key + shortcut; history list; ⇧⌘5 default ([b02c89a](https://github.com/f6511/whisk/commit/b02c89a7e705a12bc37575775a1ed1bfa1d78b0f))
+* **settings:** permissions section for Calendar and Screen Recording ([9bd5cd7](https://github.com/f6511/whisk/commit/9bd5cd7e98e9370204059d09133dda5215c1b30f))
+* **settings:** validate OpenAI key on save and add Test button ([8788448](https://github.com/f6511/whisk/commit/8788448a840d9b5a408fc97d8da609b7c93b2624))
+* **shortcuts:** add ShortcutsService wrapping KeyboardShortcuts library ([a183615](https://github.com/f6511/whisk/commit/a1836156d982f91a6f390dff6579a9535245b510))
+* **suite:** add Tool protocol, ToolRegistry, and EventSnap stub ([6a0a3d5](https://github.com/f6511/whisk/commit/6a0a3d52615e7886121a9dc378c2a3c7b5aea5af))
+
+### Bug Fixes
+
+* **ci:** avoid stale SwiftPM cache ([a2b8d1d](https://github.com/f6511/whisk/commit/a2b8d1d2fcdfa8e516f1e6ebcff1d1d85479fe1a))
+* **ci:** drop tee from archive step so set -o pipefail can't kill the build ([1022440](https://github.com/f6511/whisk/commit/1022440af5db55a05b948d5d384174e33fa12135))
+* **ci:** keep formatting report advisory ([c55214d](https://github.com/f6511/whisk/commit/c55214d436021718d7fe37f872ba819578e657a7))
+* **ci:** keep formatting report advisory ([6a0644d](https://github.com/f6511/whisk/commit/6a0644dd8628b98e5dc30ee828feccc86d4a7ca9))
+* **ci:** make PR checks runnable on GitHub ([5944d60](https://github.com/f6511/whisk/commit/5944d6097dab0abd1b147c7754d8ac65cf7a4f1b))
+* **ci:** make PR checks runnable on GitHub ([7f5da12](https://github.com/f6511/whisk/commit/7f5da12bdf864d33ab39e5f204c8ec2a946a924a))
+* **launch:** build dependency graph before scenes evaluate MenuBarExtra ([90012fe](https://github.com/f6511/whisk/commit/90012fe19c90a740e8ab343d235da29f6d5c8060))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.1.0-dev.1/whisk-0.1.0-dev.1.zip"
+        sparkle:version="90"
+        sparkle:shortVersionString="0.1.0-dev.1"
+        length="743192"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
