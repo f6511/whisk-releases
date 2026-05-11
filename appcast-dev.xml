@@ -302,5 +302,24 @@
         sparkle:edSignature="9wNTsQP0RzrPi36c4LabsT1jx1G4nLg70DhqrF8AiM8R5VcsIlxi5g7EuWENFggoNMIaTtbNc5qrrDUL4KvyAQ=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.8</title>
+      <pubDate>Mon, 11 May 2026 20:53:07 +0000</pubDate>
+      <sparkle:version>176</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.8](https://github.com/f6511/whisk/compare/v0.3.0-dev.7...v0.3.0-dev.8) (2026-05-11)
+
+### Features
+
+* **llm:** add local ollama provider ([0f14a54](https://github.com/f6511/whisk/commit/0f14a54944184dc2cfa5bafc751fbb40c298ed22))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.8/whisk-0.3.0-dev.8.zip"
+        sparkle:version="176"
+        sparkle:shortVersionString="0.3.0-dev.8"
+        length="4198675"
+        sparkle:edSignature="ehML0fYYkj/28/+Zo53cWRuLa9ZJWFsRm+2/VMjvHTAHOLxbZDhgiczKbELi+eGXxKzvISMWjQTCTfZAvWOHCQ=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
