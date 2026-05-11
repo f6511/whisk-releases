@@ -264,5 +264,24 @@
         sparkle:edSignature="LVO6bUTgJ1EkXyp3ZVol8MxaiDBj4k9uce3qj7lgnuJp1o7MML/V0Y3UYp9BAEVyj3HLaMwdoFvXVhOK5n/EAw=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.6</title>
+      <pubDate>Mon, 11 May 2026 17:08:54 +0000</pubDate>
+      <sparkle:version>169</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.6](https://github.com/f6511/whisk/compare/v0.3.0-dev.5...v0.3.0-dev.6) (2026-05-11)
+
+### Bug Fixes
+
+* **eventsnap:** make HUD panel key-capable so Retry button receives clicks ([14582aa](https://github.com/f6511/whisk/commit/14582aa07510dd09bcf4f37f3908a9aab37de1e5))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.6/whisk-0.3.0-dev.6.zip"
+        sparkle:version="169"
+        sparkle:shortVersionString="0.3.0-dev.6"
+        length="4107355"
+        sparkle:edSignature="1c76u7uP37cXlZln+Jfwy3hJfOjiUZfTZxYAhlRp+GfGeCj6kwngzr0s4djWGHz1w0w2QDpuJkxeAetbdsxWCA=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
