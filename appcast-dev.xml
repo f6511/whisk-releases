@@ -167,24 +167,5 @@
         sparkle:edSignature="a5LvPKe7c+RwJcq9PAA2bPLOngHLvW3DZNJiU1hKpgualYr5BJKqFVkKFWxEhNMVxWB2Bn5Jp8rj1jzRVxlrCA=="
         type="application/octet-stream" />
     </item>
-    <item>
-      <title>Version 0.3.0-dev.1</title>
-      <pubDate>Mon, 11 May 2026 07:37:10 +0000</pubDate>
-      <sparkle:version>144</sparkle:version>
-      <sparkle:shortVersionString>0.3.0-dev.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[## [0.3.0-dev.1](https://github.com/f6511/whisk/compare/v0.2.0...v0.3.0-dev.1) (2026-05-11)
-
-### Features
-
-* sync EventSnap HUD polish to dev ([b595309](https://github.com/f6511/whisk/commit/b595309f0a2d23b147ffd0a780a98f87f1056f89))]]></description>
-      <enclosure
-        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.1/whisk-0.3.0-dev.1.zip"
-        sparkle:version="144"
-        sparkle:shortVersionString="0.3.0-dev.1"
-        length="3986535"
-        sparkle:edSignature="ML0j+bLtJ1TL1uXf4j/++x8XFTFpVPOGC/JyO6D5Obgs31tjz7Oe9/cUHZWSvvLzX72+lGwAjICvueKkX170Bg=="
-        type="application/octet-stream" />
-    </item>
   </channel>
 </rss>
