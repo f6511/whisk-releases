@@ -98,5 +98,25 @@
         sparkle:edSignature="yh3EDoq+WCwngnYHwbd/9JtAAquC5FPpUP5+mrveAhZ/wasygdPKgdXXbOzenWVRb45ure6PahGdjxSMwirsCw=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.2.1</title>
+      <pubDate>Mon, 11 May 2026 08:12:55 +0000</pubDate>
+      <sparkle:version>141</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.2.1](https://github.com/f6511/whisk/compare/v0.2.0...v0.2.1) (2026-05-11)
+
+### Bug Fixes
+
+* clarify About copy ([7f562f6](https://github.com/f6511/whisk/commit/7f562f65cbd530673c25466f19722af05b0d7e75))
+* sync clean slate copy change to main ([a20c1b3](https://github.com/f6511/whisk/commit/a20c1b37185bc058f6f02a7b57d508d60c58ee0a))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.2.1/whisk-0.2.1.zip"
+        sparkle:version="141"
+        sparkle:shortVersionString="0.2.1"
+        length="3986533"
+        sparkle:edSignature="SDnP00Sz3mMeezqtGLpCgBRBlnIddpiYm40CYzGgoX0cZrwBmeamQGRXGF3RRwu8HAAgIIQVZW2UVtkPIC6KCA=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
