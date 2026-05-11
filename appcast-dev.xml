@@ -245,5 +245,24 @@
         sparkle:edSignature="QTtIdAxnAG1SgNVWRanJ+13WvXExgC4m/7TK40tYGsEicbV5cQcK3/ZqdssmwCB9ktSEtlESppiU2y3FGTIfCg=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.5</title>
+      <pubDate>Mon, 11 May 2026 16:52:00 +0000</pubDate>
+      <sparkle:version>166</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.5](https://github.com/f6511/whisk/compare/v0.3.0-dev.4...v0.3.0-dev.5) (2026-05-11)
+
+### Bug Fixes
+
+* **eventsnap:** make retry button fire and unify HUD sizing/animation ([1939ddf](https://github.com/f6511/whisk/commit/1939ddf761bc748eb44a51d4c247c4b173fece2a))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.5/whisk-0.3.0-dev.5.zip"
+        sparkle:version="166"
+        sparkle:shortVersionString="0.3.0-dev.5"
+        length="4106620"
+        sparkle:edSignature="LVO6bUTgJ1EkXyp3ZVol8MxaiDBj4k9uce3qj7lgnuJp1o7MML/V0Y3UYp9BAEVyj3HLaMwdoFvXVhOK5n/EAw=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
