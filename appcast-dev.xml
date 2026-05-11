@@ -167,5 +167,24 @@
         sparkle:edSignature="a5LvPKe7c+RwJcq9PAA2bPLOngHLvW3DZNJiU1hKpgualYr5BJKqFVkKFWxEhNMVxWB2Bn5Jp8rj1jzRVxlrCA=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.2.1-dev.1</title>
+      <pubDate>Mon, 11 May 2026 08:10:24 +0000</pubDate>
+      <sparkle:version>139</sparkle:version>
+      <sparkle:shortVersionString>0.2.1-dev.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.2.1-dev.1](https://github.com/f6511/whisk/compare/v0.2.0...v0.2.1-dev.1) (2026-05-11)
+
+### Bug Fixes
+
+* clarify About copy ([7f562f6](https://github.com/f6511/whisk/commit/7f562f65cbd530673c25466f19722af05b0d7e75))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.2.1-dev.1/whisk-0.2.1-dev.1.zip"
+        sparkle:version="139"
+        sparkle:shortVersionString="0.2.1-dev.1"
+        length="3986534"
+        sparkle:edSignature="mqJSYewJgNll2CJyF3kkeJx7k7hnVgIEIAUf8k4AdZHYoeizbHlr4oEdAG51YTGswWoa/bOlvKruAlr3t40tBA=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
