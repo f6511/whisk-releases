@@ -186,5 +186,24 @@
         sparkle:edSignature="mqJSYewJgNll2CJyF3kkeJx7k7hnVgIEIAUf8k4AdZHYoeizbHlr4oEdAG51YTGswWoa/bOlvKruAlr3t40tBA=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.1</title>
+      <pubDate>Mon, 11 May 2026 09:28:33 +0000</pubDate>
+      <sparkle:version>141</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.1](https://github.com/f6511/whisk/compare/v0.2.1-dev.1...v0.3.0-dev.1) (2026-05-11)
+
+### Features
+
+* **history:** editable Event Snap history with re-export ([#30](https://github.com/f6511/whisk/issues/30)) ([e12efdf](https://github.com/f6511/whisk/commit/e12efdff9794fa497a4320eab8799254be4801d8))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.1/whisk-0.3.0-dev.1.zip"
+        sparkle:version="141"
+        sparkle:shortVersionString="0.3.0-dev.1"
+        length="4048220"
+        sparkle:edSignature="KgZydNR52ShYz3OJ4F1b4cpOQNylJ88rRGnpsvrQOvWX/K5dSb7DzdQ7LVJyodskhn60uPCX5Ebe59hc4Ct2CA=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
