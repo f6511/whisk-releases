@@ -220,5 +220,30 @@
         sparkle:edSignature="OnYhbSBdzxFuYIMZ753DLGiAWTsuH+wJ//+uN6bfEANmbVChThZjfXU2tI6JhI/G3sFOz/mjizBoqzHdbnW5DQ=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.4</title>
+      <pubDate>Mon, 11 May 2026 16:16:48 +0000</pubDate>
+      <sparkle:version>159</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.4](https://github.com/f6511/whisk/compare/v0.3.0-dev.3...v0.3.0-dev.4) (2026-05-11)
+
+### Features
+
+* **eventsnap:** add noEventFound state and retryFlow ([d219c4b](https://github.com/f6511/whisk/commit/d219c4b57daf116f1fe5c9a944edc8b8f486dd01))
+* **eventsnap:** no-event toast, retry button, click-outside dismiss, glass polish ([64ec76b](https://github.com/f6511/whisk/commit/64ec76b769a781e79064b425eb39ef6b66c5d5f3))
+* **llm:** detect no-event responses and surface as typed error ([98cafed](https://github.com/f6511/whisk/commit/98cafed59831cc0067f3b0170d27e509016302f0))
+
+### Bug Fixes
+
+* **settings:** cover noEventDetected in friendly error mapping ([ffd872a](https://github.com/f6511/whisk/commit/ffd872a80ca7bf206bb7838d29d6894eb837831b))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.4/whisk-0.3.0-dev.4.zip"
+        sparkle:version="159"
+        sparkle:shortVersionString="0.3.0-dev.4"
+        length="4105635"
+        sparkle:edSignature="QTtIdAxnAG1SgNVWRanJ+13WvXExgC4m/7TK40tYGsEicbV5cQcK3/ZqdssmwCB9ktSEtlESppiU2y3FGTIfCg=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
