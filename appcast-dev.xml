@@ -283,5 +283,24 @@
         sparkle:edSignature="1c76u7uP37cXlZln+Jfwy3hJfOjiUZfTZxYAhlRp+GfGeCj6kwngzr0s4djWGHz1w0w2QDpuJkxeAetbdsxWCA=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.7</title>
+      <pubDate>Mon, 11 May 2026 20:22:29 +0000</pubDate>
+      <sparkle:version>173</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.7](https://github.com/f6511/whisk/compare/v0.3.0-dev.6...v0.3.0-dev.7) (2026-05-11)
+
+### Bug Fixes
+
+* **eventsnap:** unblock Retry button by disabling hit-testing on decorative HUD overlays ([9354d6d](https://github.com/f6511/whisk/commit/9354d6d797148b1314fc95e27c0eef96cd364625)), closes [#36](https://github.com/f6511/whisk/issues/36) [#37](https://github.com/f6511/whisk/issues/37)]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.7/whisk-0.3.0-dev.7.zip"
+        sparkle:version="173"
+        sparkle:shortVersionString="0.3.0-dev.7"
+        length="4108208"
+        sparkle:edSignature="9wNTsQP0RzrPi36c4LabsT1jx1G4nLg70DhqrF8AiM8R5VcsIlxi5g7EuWENFggoNMIaTtbNc5qrrDUL4KvyAQ=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
