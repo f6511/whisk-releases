@@ -340,5 +340,24 @@
         sparkle:edSignature="9iXR+3cla5s0RBypaOVdf3D/JcRzp6m+pJZgRFU1HtPBZCNF4jnoiW0gJso2WpM0O+togZGZUoidv5miVqt9Ag=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.10</title>
+      <pubDate>Tue, 12 May 2026 15:16:44 +0000</pubDate>
+      <sparkle:version>185</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.10](https://github.com/f6511/whisk/compare/v0.3.0-dev.9...v0.3.0-dev.10) (2026-05-12)
+
+### Features
+
+* **settings:** guide first-run permissions setup ([c10e5ed](https://github.com/f6511/whisk/commit/c10e5edb03a6a80794c1201c1a068ccea9ff1c98))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.10/whisk-0.3.0-dev.10.zip"
+        sparkle:version="185"
+        sparkle:shortVersionString="0.3.0-dev.10"
+        length="4208428"
+        sparkle:edSignature="A4V+ZTXZQ46FbYNDFQUSiMOet5IxGPMM3i6Z1TBmp74DulbMRVfAkbxuA8ZkQ1mxsQqNnANmoDOY69iCu7goBw=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
