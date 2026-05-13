@@ -359,5 +359,24 @@
         sparkle:edSignature="A4V+ZTXZQ46FbYNDFQUSiMOet5IxGPMM3i6Z1TBmp74DulbMRVfAkbxuA8ZkQ1mxsQqNnANmoDOY69iCu7goBw=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.3.0-dev.11</title>
+      <pubDate>Wed, 13 May 2026 08:11:28 +0000</pubDate>
+      <sparkle:version>188</sparkle:version>
+      <sparkle:shortVersionString>0.3.0-dev.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.3.0-dev.11](https://github.com/f6511/whisk/compare/v0.3.0-dev.10...v0.3.0-dev.11) (2026-05-13)
+
+### Features
+
+* **menu-bar:** left-click status item opens main window ([6962b70](https://github.com/f6511/whisk/commit/6962b70b3df17478fb887be042a3fc0b46a9e517)), closes [#51](https://github.com/f6511/whisk/issues/51)]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.3.0-dev.11/whisk-0.3.0-dev.11.zip"
+        sparkle:version="188"
+        sparkle:shortVersionString="0.3.0-dev.11"
+        length="4204026"
+        sparkle:edSignature="IyZTZ7afBUxKqGGmKn6oSgRm1RggaMe7VahzqxA1kn9hn+kZQdKgF6/lSN1WC3Lr8caQRwNhHtgd9jth0ysXBw=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
