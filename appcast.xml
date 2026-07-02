@@ -152,5 +152,28 @@
         sparkle:edSignature="evpA8bSLvYesqZDxLZOtYamgUv2OeKqsTbe+1zVGzrNCcumkyFKLVUkdIb6NJwGq4SoEbp9CLP9voTM1J4GACg=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.4.0</title>
+      <pubDate>Thu, 02 Jul 2026 19:36:32 +0000</pubDate>
+      <sparkle:version>206</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.4.0](https://github.com/f6511/whisk/compare/v0.3.0...v0.4.0) (2026-07-02)
+
+### Features
+
+* **settings:** add in-app permission request flow with live status ([97f34e4](https://github.com/f6511/whisk/commit/97f34e469dc2f03c144a27e23cf676ccbf86e63d))
+
+### Bug Fixes
+
+* **settings:** add calendar usage description so the access prompt can appear ([1d84b3e](https://github.com/f6511/whisk/commit/1d84b3ec48cc89e9963672558dff8fdceea1b1f7))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.4.0/whisk-0.4.0.zip"
+        sparkle:version="206"
+        sparkle:shortVersionString="0.4.0"
+        length="4223878"
+        sparkle:edSignature="LtfsEWxF43NxyPVe5b8u2nwUyXN41fB4lKtIvNBBMQIwkHkiiWij62Ff2ro2Gelt/gp1pVvFUwqrSAU0IdOWCQ=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
