@@ -416,5 +416,26 @@
         sparkle:edSignature="rgo6FhX3sZdTvo1tvm+tGNm5MgNV+d+Lwx37Gc/Vw3niRjPh/SauA5zzokHq1U8uBDCWvkx7nZ+CNvLAnhyiBw=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.4.1-dev.1</title>
+      <pubDate>Tue, 11 Aug 2026 11:33:55 +0000</pubDate>
+      <sparkle:version>213</sparkle:version>
+      <sparkle:shortVersionString>0.4.1-dev.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.4.1-dev.1](https://github.com/f6511/whisk/compare/v0.4.0...v0.4.1-dev.1) (2026-08-11)
+
+### Bug Fixes
+
+* **permissions:** correct screen-recording and calendar request handling ([a66e973](https://github.com/f6511/whisk/commit/a66e973e568ab7892cfb40b33737f53d7c3816d9))
+* **permissions:** persist the prompt flag only after the request resolves ([1ea3deb](https://github.com/f6511/whisk/commit/1ea3debcc064e12b705f9c3afb7d42230ac2b5df))
+* **settings:** correct the permission row lifecycle and polling ([49048b7](https://github.com/f6511/whisk/commit/49048b7c8e98d86d869a9bc93a1b51b72ff1beca))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.4.1-dev.1/whisk-0.4.1-dev.1.zip"
+        sparkle:version="213"
+        sparkle:shortVersionString="0.4.1-dev.1"
+        length="4235451"
+        sparkle:edSignature="NFYHAtMusmvpTic3JsXb5RJfxCsiN2GZfIhFiday/V5CyLKFz2pYc3FlWLLeBzIqhwsAII6AGxTyG0g2YLlNAg=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
