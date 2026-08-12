@@ -477,5 +477,35 @@
         sparkle:edSignature="4fwDhOtzNKB6rSunlgojI6Kesd6seVRopHG67f/ME7NUYbDp1qIUSZjyNZc0u9+ZBxWxI5WeKmpmxObaGKIMAA=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.5.0-dev.1</title>
+      <pubDate>Wed, 12 Aug 2026 21:23:01 +0000</pubDate>
+      <sparkle:version>241</sparkle:version>
+      <sparkle:shortVersionString>0.5.0-dev.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.5.0-dev.1](https://github.com/f6511/whisk/compare/v0.4.1-dev.3...v0.5.0-dev.1) (2026-08-12)
+
+### Features
+
+* **camera:** add camera service with device discovery and preview session ([dfaa9cb](https://github.com/f6511/whisk/commit/dfaa9cb47279e775a8d80245e4296df3de3eb45d))
+* **permissions:** add camera and microphone permissions ([0fd5e7f](https://github.com/f6511/whisk/commit/0fd5e7faec8763096ec9e2e3facaa5a2aa2c2c61))
+* **preflight:** add floating preview panel ([1d7a910](https://github.com/f6511/whisk/commit/1d7a9109d556152f856756cc4d5aae77f110d896))
+* **preflight:** add manager and tool ([1954f3c](https://github.com/f6511/whisk/commit/1954f3c4ba049b7bf488e373480baaf3087e840b))
+* **preflight:** add mic level meter, device menus and settings section ([a8c39c4](https://github.com/f6511/whisk/commit/a8c39c47b5f151fb004f06e136878529574fc5ac))
+
+### Bug Fixes
+
+* **menubar:** show tool shortcuts as key equivalents ([b56b392](https://github.com/f6511/whisk/commit/b56b3926d5a16b355660c0211f02921cd00c17c2))
+* **preflight:** degrade to video when the microphone is unavailable, and prompt for it ([c170f9e](https://github.com/f6511/whisk/commit/c170f9ec1e4c3ec7e6856fa2c1f3e5301fd9c275))
+* **preflight:** harden capture startup ([0683f2a](https://github.com/f6511/whisk/commit/0683f2a096b3a539ce5d0697dd6874fa9edfecbc))
+* **preflight:** keep the mirror control visible and replace click-outside with a close button ([4226e3d](https://github.com/f6511/whisk/commit/4226e3d78f7d350123e409dc57ec25621dff7275))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.5.0-dev.1/whisk-0.5.0-dev.1.zip"
+        sparkle:version="241"
+        sparkle:shortVersionString="0.5.0-dev.1"
+        length="4371376"
+        sparkle:edSignature="O53ioEwp8bZX1r1r03xZ5or7moUvBF7j40AtNXhhvYU10E7ee/lcT7H8zGh68aukhkWQrv955V+EU1YRac5OBQ=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
