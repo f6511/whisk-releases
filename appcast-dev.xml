@@ -507,5 +507,33 @@
         sparkle:edSignature="O53ioEwp8bZX1r1r03xZ5or7moUvBF7j40AtNXhhvYU10E7ee/lcT7H8zGh68aukhkWQrv955V+EU1YRac5OBQ=="
         type="application/octet-stream" />
     </item>
+    <item>
+      <title>Version 0.5.0-dev.2</title>
+      <pubDate>Sat, 19 Sep 2026 10:16:23 +0000</pubDate>
+      <sparkle:version>257</sparkle:version>
+      <sparkle:shortVersionString>0.5.0-dev.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[## [0.5.0-dev.2](https://github.com/f6511/whisk/compare/v0.5.0-dev.1...v0.5.0-dev.2) (2026-09-19)
+
+### Features
+
+* **menubar:** add a settings entry to the menu ([9f1e76c](https://github.com/f6511/whisk/commit/9f1e76c9e06263aea68ba584016701f10a45abe7))
+* **preflight:** refresh device lists when hardware changes ([c780852](https://github.com/f6511/whisk/commit/c78085253a78847cf8a67c924ac439325e4eb0b0))
+
+### Bug Fixes
+
+* **camera:** only report a camera the session actually opened ([df06e21](https://github.com/f6511/whisk/commit/df06e21514bbfedba00efe564bb2258c6b5db2d6))
+* **menubar:** open the menu on either click ([7028ea5](https://github.com/f6511/whisk/commit/7028ea5e3a25e21d80aa00dec990bc5ff2c1c5ff))
+* **menubar:** wire menu entries through a testable seam ([cd24b5b](https://github.com/f6511/whisk/commit/cd24b5bc6f7599ea4f2c64d2b07bf9e6ddbd2af1))
+* **preflight:** recover when the camera in use is unplugged ([beb5471](https://github.com/f6511/whisk/commit/beb54711a66554243f7555eb72e435417c5fa987))
+* **preflight:** skip a stale device change instead of ending the watch ([3372214](https://github.com/f6511/whisk/commit/3372214567e72d105265f47d1d43807b217bbffa))]]></description>
+      <enclosure
+        url="https://github.com/f6511/whisk-releases/releases/download/v0.5.0-dev.2/whisk-0.5.0-dev.2.zip"
+        sparkle:version="257"
+        sparkle:shortVersionString="0.5.0-dev.2"
+        length="4355713"
+        sparkle:edSignature="v9Z7547HP11tKopun6MYxIClI5eZvGdcbc2r7wDMZQ/joy1M9p28hTgpIkveUqSzp1TDXlAoFrtumvcwolLICQ=="
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
