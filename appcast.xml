@@ -6,6 +6,24 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.11.0</title>
+      <pubDate>Mon, 28 Sep 2026 20:39:01 +0000</pubDate>
+      <sparkle:version>386</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.11.0 — 2026-09-28
+
+### Features
+
+- **suite:** use plain names for the four tools
+
+### Bug Fixes
+
+- **suite:** keep speech-to-text models out of the chat model list
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.11.0/Whisk-0.11.0.zip" length="13812590" type="application/octet-stream" sparkle:edSignature="iEiSWfdn9do1zXUlY4J8zlCTmcJctOEAP+6PfDxOxSJKA1Sd4x378tao9jT0I5X548jYwAgYEO+KOcrL0BtyAg==" />
+    </item>
+    <item>
       <title>Version 0.10.0</title>
       <pubDate>Mon, 28 Sep 2026 10:09:06 +0000</pubDate>
       <sparkle:version>381</sparkle:version>
