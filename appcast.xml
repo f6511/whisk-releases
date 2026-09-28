@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Whisk</title>
+    <link>https://github.com/f6511/whisk-releases/releases</link>
+    <description>Updates for Whisk.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.10.0</title>
+      <pubDate>Mon, 28 Sep 2026 10:09:06 +0000</pubDate>
+      <sparkle:version>381</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.10.0 — 2026-09-28
+
+### Features
+
+- **meetings:** offer to record when a call starts
+- **meetings:** record from the menu and read the meeting in History
+- **meetings:** transcribe a recording with Apple's engine or OpenAI
+- **meetings:** put both sides of a meeting into one transcript
+- **meetings:** record a meeting and watch over the capture
+- **meetings:** capture what this Mac plays
+- **meetings:** write a track as crash-safe AAC on a shared clock
+- **transcribe:** dictate with Parakeet
+- **transcribe:** add speech engines that work on recordings
+- **updater:** check for updates with Sparkle
+- **history:** keep app data in a folder named after the bundle
+- **llm:** replace Ollama with Apple Intelligence as the default provider
+
+### Bug Fixes
+
+- **meetings:** offer a call again when it goes on after a mute
+- **meetings:** notice a call however far apart the looks are
+- **meetings:** offer a call once, and say when recording it fails
+- **meetings:** remove nothing while History cannot be trusted
+- **meetings:** keep the folder of a recording that is being started
+- **meetings:** keep a recording and its transcript through what goes wrong
+- **transcribe:** clean up after a cancelled download, whoever started it
+- **transcribe:** make sharing a download and a loaded model safe
+- **transcribe:** show real download progress and unload the model
+- **transcribe:** read the OpenAI account on the main actor
+- **release:** say what a failed run knows and no more
+- **release:** make the feed script executable and harden the job
+- **updater:** capture the service weakly in the main actor hop
+- **updater:** offer a background update in the menu
+- **llm:** cap and time out Apple Intelligence event extraction
+- **llm:** list the coming two weeks so weekdays resolve correctly
+- **llm:** leave the screenshot setting alone while OpenAI is not in use
+- **llm:** keep OpenAI for installs that predate the provider setting
+- **llm:** address review of the Apple Intelligence service
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.10.0/Whisk-0.10.0.zip" length="13812801" type="application/octet-stream" sparkle:edSignature="lz518Q06Jsvj+oxJHrqMLfWkf6dEn4uBnC4rfpgS1OC31yyXSxnVOTV6KK87Wynx4KibEM6tRj3+88Y5p4RVDQ==" />
+    </item>
+  </channel>
+</rss>
