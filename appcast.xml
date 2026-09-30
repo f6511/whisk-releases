@@ -6,6 +6,39 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.12.0</title>
+      <pubDate>Wed, 30 Sep 2026 12:23:24 +0000</pubDate>
+      <sparkle:version>409</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.12.0 — 2026-09-30
+
+### Features
+
+- **main:** previews for the tool page header
+- **main:** a main window with a sidebar of the tools and History
+- **main:** tool pages open with the tool's tile, name and summary
+- **onboarding:** the site's stage before the permission checklist
+- **brand:** port the site's point-cloud glyphs
+- **brand:** bundle Bricolage Grotesque for display lines
+- **hud:** one ink pill for Schedule and Dictate, at the bottom center
+- **history:** empty lists sit in the room of the tool that fills them
+- **settings:** room header on each tool tab and room tiles in the menu
+- **suite:** ink accent, room colors, and the site's copy per tool
+
+### Bug Fixes
+
+- **main:** tool page headers are headings for VoiceOver
+- **main:** the sidebar always has a page selected
+- **main:** address review of the main window
+- **icons:** Improve look
+- **hud:** size the panels from SwiftUI's geometry, anchored at the bottom
+- **hud:** keep the HUD's shadow room out of its hit area
+- **brand:** address review of the identity PR
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.12.0/Whisk-0.12.0.zip" length="13928591" type="application/octet-stream" sparkle:edSignature="JHd5052wp4J95LB9c+PSYqB5OtJ5m++cfapPSUophP0D2a2khgD8jeNGZO/vlw2Gxdc7BWQGU0uicehxiFspCQ==" />
+    </item>
+    <item>
       <title>Version 0.11.0</title>
       <pubDate>Mon, 28 Sep 2026 20:39:01 +0000</pubDate>
       <sparkle:version>386</sparkle:version>
