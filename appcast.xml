@@ -6,6 +6,68 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.13.0</title>
+      <pubDate>Wed, 07 Oct 2026 20:01:38 +0000</pubDate>
+      <sparkle:version>468</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.13.0 — 2026-10-07
+
+### Features
+
+- **meetings:** hide the Transcript panel from the menu too
+- **meetings:** start a new group once a speaker has gone on a minute
+- **history:** edit a meeting's transcript
+- **meetings:** show the live transcript in a panel and in History
+- **suite:** list what else a tool can do under its menu item
+- **meetings:** show a live transcript that follows the newest line
+- **meetings:** keep a live transcript beside every recording
+- **meetings:** transcribe both tracks live with SpeechAnalyzer
+- **meetings:** hand each track to a live sink as it is written
+- **schedule:** open the event read without AI when the model fails
+- **schedule:** read an event from recognized text without a model
+- **onboarding:** offer Open at login beside Done
+- **settings:** add Open at login to General
+- **settings:** add a launch-at-login service and manager
+- **llm:** offer OpenRouter as a provider in the AI tab
+- **llm:** add an OpenRouter service and model catalog
+
+### Bug Fixes
+
+- **history:** copy what was heard live of a failed meeting
+- **main:** drop a Show in History request once it is handled
+- **meetings:** say nothing was transcribed rather than nothing was said
+- **history:** ask before Try Again replaces an edited transcript
+- **history:** edit what was heard live on a failed meeting
+- **meetings:** say the live transcript was not ready, not that nothing was said
+- **meetings:** never let the live transcript hold up the end of a meeting
+- **history:** show what was heard live when a meeting could not be transcribed
+- **meetings:** keep why there was no live transcript once a meeting ends
+- **meetings:** end a live transcript that stops, or cannot finish in time
+- **meetings:** show a final line's own text, not what it was before
+- **schedule:** count a date as passed once its time has, not its day
+- **settings:** let a cancelled OpenAI model load leave the next one alone
+- **settings:** keep a saved OpenRouter model listed once it leaves Popular
+- **settings:** reload the models when an API key is replaced
+- **llm:** follow OpenRouter's catalog pages only on its own host
+- **schedule:** read the first date still to come without a model
+- **schedule:** address review of the fallback
+- **settings:** title-case the Open at login alert and test the status mapping
+- **settings:** follow the HIG in the Open at login alert
+- **settings:** decide Open at login from the current status
+- **settings:** report a refused Open at login only where it was asked
+- **settings:** keep the screenshot preference when switching to an unknown model
+- **llm:** follow later pages of OpenRouter's model catalog
+- **settings:** judge the saved OpenRouter model only by the real catalog
+- **llm:** don't take a reply that ended in an error for the answer
+- **settings:** keep the saved OpenRouter model while the list loads
+- **llm:** keep the message of an error sent inside a 200 reply
+- **llm:** keep OpenRouter's latest aliases in the model list
+- **llm:** read event JSON wrapped in a code fence
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.13.0/Whisk-0.13.0.zip" length="14082936" type="application/octet-stream" sparkle:edSignature="8E5Olc1BCTNAUKEYU1jFF6Jjw6872dAevAgS9NblBL2mkIr3Wje6z8bhEV0Z1Ya2eMuvf1gEXqdtaX9HNViGCA==" />
+    </item>
+    <item>
       <title>Version 0.12.0</title>
       <pubDate>Wed, 30 Sep 2026 12:23:24 +0000</pubDate>
       <sparkle:version>409</sparkle:version>
