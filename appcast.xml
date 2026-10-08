@@ -6,6 +6,24 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.15.0</title>
+      <pubDate>Thu, 08 Oct 2026 18:46:25 +0000</pubDate>
+      <sparkle:version>506</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.15.0 — 2026-10-08
+
+### Features
+
+- **hud:** polish tool indicators and meeting offers
+
+### Bug Fixes
+
+- **hud:** keep long messages and actions on screen
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.15.0/Whisk-0.15.0.zip" length="14119956" type="application/octet-stream" sparkle:edSignature="TUDNIK5F7f9tiAf1eZJzqVllRq0zlBwKHrIGGc5/cGhdPEcNZNuW5yJuUO2iBlrcHBT3okyAc8VyeC1cqn0PAA==" />
+    </item>
+    <item>
       <title>Version 0.14.0</title>
       <pubDate>Thu, 08 Oct 2026 09:41:05 +0000</pubDate>
       <sparkle:version>500</sparkle:version>
