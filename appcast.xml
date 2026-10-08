@@ -6,6 +6,32 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.16.0</title>
+      <pubDate>Thu, 08 Oct 2026 20:17:38 +0000</pubDate>
+      <sparkle:version>520</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.16.0 — 2026-10-08
+
+### Features
+
+- **hud:** say on screen that a meeting was saved
+- **meetings:** keep a confirmation of the recording that was just saved
+- **history:** preview a transcript's file and choose its format before exporting
+- **meetings:** write a transcript as plain text, markdown or json
+- **settings:** show the walkthrough again from General
+
+### Bug Fixes
+
+- **hud:** hold the saved card from where the pointer and VoiceOver are now
+- **meetings:** follow VoiceOver being switched while the saved card is up
+- **meetings:** keep the saved card while it is pointed at, read out or slept through
+- **onboarding:** a requested walkthrough never opens on a relaunch page
+- **onboarding:** start a requested walkthrough over without a new identity
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.16.0/Whisk-0.16.0.zip" length="14161673" type="application/octet-stream" sparkle:edSignature="i9TNPdI36oBj87aB1ffkSWVTXVRYpjFSbm0GLXzKyJ50D7jPmvIiXUNsV1Z9DOUy8ZhLsuYfRGO51wByD0/LAQ==" />
+    </item>
+    <item>
       <title>Version 0.15.0</title>
       <pubDate>Thu, 08 Oct 2026 18:46:25 +0000</pubDate>
       <sparkle:version>506</sparkle:version>
