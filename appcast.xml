@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.14.0</title>
+      <pubDate>Thu, 08 Oct 2026 09:41:05 +0000</pubDate>
+      <sparkle:version>500</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.14.0 — 2026-10-08
+
+### Features
+
+- **build:** build a drag-to-Applications disk image
+- **suite:** ask to be moved to Applications when run from a disk image
+- **onboarding:** a guided walkthrough that sets up one tool per page
+- **suite:** a tool names the permissions it needs
+- **meetings:** copy and export a transcript one paragraph per turn
+- **meetings:** name recordings after the calendar event they are of
+- **main:** move Settings into the main window
+
+### Bug Fixes
+
+- **build:** leave the app in the disk image free of Finder flags
+- **onboarding:** open in front of other apps on first launch
+- **settings:** point Screen Recording help at General
+- **main:** keep an open History editor when Settings is chosen
+- **history:** show empty lists without the tool's room
+- **meetings:** start sentences and new speakers with a capital
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.14.0/Whisk-0.14.0.zip" length="14105138" type="application/octet-stream" sparkle:edSignature="l9dx92sPIUkbG75wr6J191aJ2NUPeAL2jThH0Hvc/86Lc761YYh8opj/ioXl0TqGWTMAvxDZlZZ75J2E2jj5AA==" />
+    </item>
+    <item>
       <title>Version 0.13.0</title>
       <pubDate>Wed, 07 Oct 2026 20:01:38 +0000</pubDate>
       <sparkle:version>468</sparkle:version>
