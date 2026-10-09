@@ -6,6 +6,31 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.20.0</title>
+      <pubDate>Fri, 09 Oct 2026 20:06:47 +0000</pubDate>
+      <sparkle:version>613</sparkle:version>
+      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.20.0 — 2026-10-09
+
+### Features
+
+- **preview:** animate native control symbols
+- **preview:** float native glass controls over the camera
+- **schedule:** add several events from one capture, and stated repeats
+- **calendar:** write several events into one file
+
+### Bug Fixes
+
+- **preview:** use clear glass for camera controls
+- **preview:** keep glass menu controls visible and round
+- **schedule:** keep an event behind an empty entry and a repeat ended by a count
+- **schedule:** correct short series on several weekdays, and drop rules read in part
+- **schedule:** keep repeats the reply states, and drop what cannot be read
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.20.0/Whisk-0.20.0.zip" length="14935373" type="application/octet-stream" sparkle:edSignature="iUKABKMHq0i4aggyZoiisPy5hjq+x5naXgpO80ynRJLSSpGTG0dJ6lD7cqdO81wHdX59dvwXFrpmlZQ/lf4yBw==" />
+    </item>
+    <item>
       <title>Version 0.19.0</title>
       <pubDate>Fri, 09 Oct 2026 19:56:57 +0000</pubDate>
       <sparkle:version>599</sparkle:version>
