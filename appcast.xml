@@ -6,6 +6,34 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.0</title>
+      <pubDate>Fri, 09 Oct 2026 09:21:28 +0000</pubDate>
+      <sparkle:version>539</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.17.0 — 2026-10-09
+
+### Features
+
+- **settings:** say that noticing calls also offers to stop
+- **hud:** show the offer to stop in the call offer's card
+- **meetings:** offer to stop a recording once its call is over
+- **meetings:** tell when the calls of a recording are over
+- **settings:** share anonymous diagnostics, with a switch in General
+- **analytics:** report how each tool run ended
+- **analytics:** add a PostHog analytics service
+
+### Bug Fixes
+
+- **meetings:** hold the countdown through a moment that may be a call
+- **meetings:** hold the countdown for a call that is starting
+- **meetings:** keep the offer to stop reachable and steady after review
+- **analytics:** don't log a report destination while sharing is off
+- **analytics:** send nothing at all while sharing is off
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.17.0/Whisk-0.17.0.zip" length="14760204" type="application/octet-stream" sparkle:edSignature="y3iaPVR2qNNtBcM157wdFpIUoDlv8AMDkdiXyCUP6hSf5pt/H3l0PGsvp7OTuwPHsUNI6/teFVz984+pWtjcAQ==" />
+    </item>
+    <item>
       <title>Version 0.16.0</title>
       <pubDate>Thu, 08 Oct 2026 20:17:38 +0000</pubDate>
       <sparkle:version>520</sparkle:version>
