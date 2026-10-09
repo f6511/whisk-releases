@@ -6,6 +6,42 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.18.0</title>
+      <pubDate>Fri, 09 Oct 2026 11:30:59 +0000</pubDate>
+      <sparkle:version>575</sparkle:version>
+      <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.18.0 — 2026-10-09
+
+### Features
+
+- **automation:** app intents and whisk:// links
+- **automation:** run a tool's action by id, and read the last texts
+- **tools:** declare what can be asked of a tool from outside Whisk
+- **dictate:** start and stop a dictation without toggling
+- **dictate:** say which model cleans up while a command-line provider is selected
+- **llm:** use a Claude or ChatGPT subscription through Claude Code or Codex
+- **llm:** run a command-line tool and find it without a shell PATH
+
+### Bug Fixes
+
+- **automation:** make the Alfred script work with either way of passing input
+- **automation:** show the tool's reason in Shortcuts, and tidy links and docs
+- **dictate:** ask again from a pre-alert left on screen, and say when busy
+- **meetings:** announce a recording that automation could not start
+- **automation:** open links in the background from Alfred
+- **automation:** forgive a trailing space and keep the main window out of links
+- **automation:** fail when a recording or dictation did not start
+- **llm:** keep Codex from taking the stdin marker for an image, and a chosen tool that is gone stays missing
+- **llm:** a tool that exits on SIGTERM still timed out, and a cancelled check offers Check Again
+- **settings:** show a chosen tool's location so a wrong choice can be changed
+- **llm:** take Codex's command, browser and network tools away, and read only its own errors
+- **llm:** a command that ends early, lingers or ignores SIGTERM cannot hang or end Whisk
+- **llm:** keep the command-line mock off the main actor
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.18.0/Whisk-0.18.0.zip" length="14857976" type="application/octet-stream" sparkle:edSignature="4nrNFcr3Oe0QSXSBTmIkjXHF2pv9TnTCPVE0RLK8bI88SloNu6fxPxGwad170IV2r3tD/zdTLu9WecCH5mnxCQ==" />
+    </item>
+    <item>
       <title>Version 0.17.0</title>
       <pubDate>Fri, 09 Oct 2026 09:21:28 +0000</pubDate>
       <sparkle:version>539</sparkle:version>
