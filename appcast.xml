@@ -6,6 +6,33 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.23.0</title>
+      <pubDate>Sat, 10 Oct 2026 15:24:45 +0000</pubDate>
+      <sparkle:version>654</sparkle:version>
+      <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.23.0 — 2026-10-10
+
+### Features
+
+- **share:** a glass panel, one slider for all headsets, step buttons and the volume keys
+- **dock:** offer the status item's menu from the Dock icon
+- **share:** add the Share tool
+- **permissions:** add an optional Bluetooth permission
+- **share:** add audio sharing and headset battery services
+
+### Bug Fixes
+
+- **share:** drag the panel by any empty part of its card
+- **share:** put back the input sharing began with, and only take a headset that connects for an arrival
+- **share:** give the sky room its paper
+- **share:** keep the input off Bluetooth on every rebuild, tell an arriving headset from a picked output
+- **share:** queue changes, let a connecting headset join, keep the input through a dropout
+- **icon:** give the app icon's whisk more contrast
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.23.0/Whisk-0.23.0.zip" length="15151662" type="application/octet-stream" sparkle:edSignature="TTUjtT0tRDB6s2swau44GhydDk9qgzwPqh+yqRDWVvnLrZ8h7L8Us1Qn8mI/N8d7IMociZHj2WGx4Ytor56qAw==" />
+    </item>
+    <item>
       <title>Version 0.22.0</title>
       <pubDate>Sat, 10 Oct 2026 14:26:56 +0000</pubDate>
       <sparkle:version>637</sparkle:version>
