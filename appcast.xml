@@ -6,6 +6,26 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.22.0</title>
+      <pubDate>Sat, 10 Oct 2026 14:26:56 +0000</pubDate>
+      <sparkle:version>637</sparkle:version>
+      <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.22.0 — 2026-10-10
+
+### Features
+
+- **settings:** restart into a downloaded update, and What's New in General
+- **changelog:** read what each release changed from the appcast
+
+### Bug Fixes
+
+- **settings:** read a release's date to VoiceOver, and log an update that is lost
+- **settings:** keep the download setting, a lost update and the feed's parsing right
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.22.0/Whisk-0.22.0.zip" length="14982095" type="application/octet-stream" sparkle:edSignature="CkXK2qoyicIS6v2fArvNB0u4fCT6XRm07SZ0aacZD/yu5Ab5YivjlnxhzEkgzRLPWDVK7XzX6o+Q7dIGriNZBg==" />
+    </item>
+    <item>
       <title>Version 0.21.0</title>
       <pubDate>Sat, 10 Oct 2026 10:47:58 +0000</pubDate>
       <sparkle:version>630</sparkle:version>
