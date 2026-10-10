@@ -6,6 +6,31 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.21.0</title>
+      <pubDate>Sat, 10 Oct 2026 10:47:58 +0000</pubDate>
+      <sparkle:version>630</sparkle:version>
+      <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.21.0 — 2026-10-10
+
+### Features
+
+- **main:** move each History list into its tool's page as a tab
+- **brand:** bring the point-cloud glyphs up to date with the site
+- **preview:** stack the controls on the leading edge beside a vertical meter
+- **build:** horizon light on the disk image's background
+- **onboarding:** native tab picker dock and horizon light on the stage
+
+### Bug Fixes
+
+- **main:** keep known tabs when one stored tab is unknown, drop a meeting request no tool can show
+- **settings:** make the Dark Mode accent carry white text
+- **onboarding:** name the dock's tabs and keep its key buttons out of the tab order
+- **preview:** measure the control column and free the pre-alert's width
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.21.0/Whisk-0.21.0.zip" length="14943152" type="application/octet-stream" sparkle:edSignature="zstbjHqYk9gDJxjDvr1kqQQfsGrOugfo98hyuBSEYTbUGMcMqq4KcLaFSG5emNrZE5AB5yPik4eaEjxtcvTNDQ==" />
+    </item>
+    <item>
       <title>Version 0.20.0</title>
       <pubDate>Fri, 09 Oct 2026 20:06:47 +0000</pubDate>
       <sparkle:version>613</sparkle:version>
