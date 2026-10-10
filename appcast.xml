@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.25.1</title>
+      <pubDate>Sat, 10 Oct 2026 20:20:55 +0000</pubDate>
+      <sparkle:version>686</sparkle:version>
+      <sparkle:shortVersionString>0.25.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.25.1 — 2026-10-10
+
+### Bug Fixes
+
+- **build:** keep previews that use debug fixtures out of Release
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.25.1/Whisk-0.25.1.zip" length="15214016" type="application/octet-stream" sparkle:edSignature="5Zj7IerJlaXo07HgRQ43gjd73s0YJguygvhsdkdNrhMjnlwXP7LDKbJ1jXZnMVSNQVLDDvpeZu6S/BBnDu4OBA==" />
+    </item>
+    <item>
       <title>Version 0.23.0</title>
       <pubDate>Sat, 10 Oct 2026 15:24:45 +0000</pubDate>
       <sparkle:version>654</sparkle:version>
