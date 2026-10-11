@@ -6,6 +6,31 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.26.0</title>
+      <pubDate>Sun, 11 Oct 2026 05:46:44 +0000</pubDate>
+      <sparkle:version>701</sparkle:version>
+      <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.26.0 — 2026-10-11
+
+### Features
+
+- **meetings:** make replacements in a meeting's transcript
+- **dictate:** listen for a vocabulary and make replacements
+- **vocabulary:** keep the lists as the rows that edit them
+- **settings:** store a vocabulary and text replacements
+
+### Bug Fixes
+
+- **meetings:** build the replacement pattern once for a transcript
+- **vocabulary:** put the add and remove buttons under the list
+- **vocabulary:** add a row where the list shows it
+- **meetings:** keep the Transcript panel when History can't show the meeting
+- **main:** show nothing over an open sheet
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.26.0/Whisk-0.26.0.zip" length="15269408" type="application/octet-stream" sparkle:edSignature="nEdUjOTh8ebH/72DY4XTpGhmqeLb5rcW49A2DmHNsmZqt42xeqJ+Od4pAdKpeiDkqoHouBqppqEg6s6nxHYyAQ==" />
+    </item>
+    <item>
       <title>Version 0.25.1</title>
       <pubDate>Sat, 10 Oct 2026 20:20:55 +0000</pubDate>
       <sparkle:version>686</sparkle:version>
