@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.27.0</title>
+      <pubDate>Sun, 11 Oct 2026 06:41:11 +0000</pubDate>
+      <sparkle:version>719</sparkle:version>
+      <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.27.0 — 2026-10-11
+
+### Features
+
+- **settings:** choose how meetings are summarized
+- **history:** show a meeting's summary and notes and rename its speakers
+- **meetings:** summarize a meeting, rename its speakers and take notes
+- **llm:** summarize a meeting with the model chosen for it
+- **meetings:** keep speaker names, notes and a summary with a meeting
+
+### Bug Fixes
+
+- **meetings:** summarize a new transcript although a summary was under way
+- **history:** offer Summarize Again once, in the sheet's footer
+- **llm:** let a meeting's notes say how its minutes are written
+- **history:** keep a speaker's name when its popover is clicked away
+- **history:** keep a suggested name the user confirms
+- **history:** save a meeting's notes soon after they are typed
+- **meetings:** drop a summary that a new transcript overtakes
+- **meetings:** do not report a summary that was cut short as failed
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.27.0/Whisk-0.27.0.zip" length="15381869" type="application/octet-stream" sparkle:edSignature="bZsyf7YUqo+3ewRkaYLkTGEYejBQKh/zLs+qi4Oot7TZyFPGPdUVkBjTtQD/Xelws1w/G+5yokpg7Qzt6YZmBQ==" />
+    </item>
+    <item>
       <title>Version 0.26.0</title>
       <pubDate>Sun, 11 Oct 2026 05:46:44 +0000</pubDate>
       <sparkle:version>701</sparkle:version>
