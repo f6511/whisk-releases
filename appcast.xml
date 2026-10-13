@@ -6,6 +6,36 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.30.0</title>
+      <pubDate>Tue, 13 Oct 2026 19:05:06 +0000</pubDate>
+      <sparkle:version>748</sparkle:version>
+      <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.30.0 — 2026-10-13
+
+### Features
+
+- **agenda:** show the next meeting in the menu bar and join it
+- **menubar:** let a tool title the status item and lead the menu
+- **links:** find the call in a calendar event
+- **notifications:** schedule notifications with an action
+- **calendar:** list calendars, filter by calendar and report changes
+
+### Bug Fixes
+
+- **agenda:** have an overtaken read wait for the one that overtook it
+- **agenda:** date a late reminder from when the calendars were read
+- **agenda:** let only the last read of the calendars count
+- **agenda:** remind of a meeting first seen close to its start
+- **agenda:** keep a reminder that is due when planning again
+- **agenda:** leave AM and PM off the timeline's hours
+- **agenda:** say a row's state to VoiceOver
+- **agenda:** replan on wake and clock changes, open only web links from an event
+- **notifications:** schedule by date and one replacement at a time
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.30.0/Whisk-0.30.0.zip" length="19593670" type="application/octet-stream" sparkle:edSignature="oi906DCnfaKmnh3I3JzI0DrN9wqVnom5PK/IJEDigJ4G/S+u5Xr/dlISrz6q+g50b0YNhEQ7+dEJ9ilwMYvkBg==" />
+    </item>
+    <item>
       <title>Version 0.29.0</title>
       <pubDate>Sun, 11 Oct 2026 11:41:59 +0000</pubDate>
       <sparkle:version>731</sparkle:version>
