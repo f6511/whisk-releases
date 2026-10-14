@@ -6,6 +6,49 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.31.0</title>
+      <pubDate>Wed, 14 Oct 2026 18:42:10 +0000</pubDate>
+      <sparkle:version>784</sparkle:version>
+      <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.31.0 — 2026-10-14
+
+### Features
+
+- **agenda:** preview the menu bar item and the top of the menu on the page
+- **brand:** give Agenda the coral room and Share a new aqua room
+- **agenda:** set up the clock, the top of the menu and the calendar app
+- **agenda:** add an event from a line of text
+- **agenda:** put the month at the top of the menu and a submenu on each event
+- **agenda:** read the weeks of a month and the day chosen in it
+- **menubar:** tell a menu item's target when it is highlighted
+- **agenda:** show the date and time in the menu bar
+- **calendar:** read invitees and list the apps that open calendars
+
+### Bug Fixes
+
+- **agenda:** end a day at the next one's start where summer time begins at midnight
+- **agenda:** say which day of the month is today to VoiceOver
+- **agenda:** let an Add close only the card it was started from
+- **agenda:** keep the sample month from VoiceOver
+- **agenda:** tell VoiceOver what each lane of the menu bar preview shows
+- **menubar:** keep the recording's dot before a title whose logo trails
+- **agenda:** draw New Event in Agenda's room, whichever it is
+- **agenda:** put the meeting's logo by the meeting when the time comes first
+- **agenda:** cut an event submenu's lines to the month's width
+- **agenda:** cut a row's time to the menu's width
+- **calendar:** read an invitee's address decoded
+- **agenda:** make the day strip as narrow as the month
+- **agenda:** preview each reading of the New Event card
+- **agenda:** say each invitee's answer to VoiceOver
+- **agenda:** add only the reading of the text in the field
+- **agenda:** start every day of the month at its start
+- **agenda:** move the listed day along when the month changes
+- **agenda:** keep the row width and day list observation off the main actor's warnings
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.31.0/Whisk-0.31.0.zip" length="19715782" type="application/octet-stream" sparkle:edSignature="S49N2CC0yY0Aq1C/jqgk+rxY6F73bTSP8ZoeBQm6gENPq6izc+SrgXei19GAJrYy4BFqq1FAnPu6GvG77WICCQ==" />
+    </item>
+    <item>
       <title>Version 0.30.0</title>
       <pubDate>Tue, 13 Oct 2026 19:05:06 +0000</pubDate>
       <sparkle:version>748</sparkle:version>
