@@ -6,6 +6,21 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.33.1</title>
+      <pubDate>Thu, 15 Oct 2026 18:31:15 +0000</pubDate>
+      <sparkle:version>835</sparkle:version>
+      <sparkle:shortVersionString>0.33.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.33.1 — 2026-10-15
+
+### Bug Fixes
+
+- **agenda:** change months from the arrows at once
+- **meetings:** record the microphone without changing a headset's codec
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.33.1/Whisk-0.33.1.zip" length="19779704" type="application/octet-stream" sparkle:edSignature="AUsa9S73kFW2/nmzBZQrzxnlpZJeAqZPS6pSXRw0g3/QlCgX7Vm8QpwE08hs0FtwZFHxtBue1GiUSrcPm7oTDQ==" />
+    </item>
+    <item>
       <title>Version 0.33.0</title>
       <pubDate>Thu, 15 Oct 2026 14:30:24 +0000</pubDate>
       <sparkle:version>828</sparkle:version>
