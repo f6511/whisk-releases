@@ -6,6 +6,31 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.33.0</title>
+      <pubDate>Thu, 15 Oct 2026 14:30:24 +0000</pubDate>
+      <sparkle:version>828</sparkle:version>
+      <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.33.0 — 2026-10-15
+
+### Features
+
+- **menu:** place each tool's items as WH-98 lists them
+- **menu:** open a different menu for a right click than a left one
+- **agenda:** mark an event's days as one bar a week
+
+### Bug Fixes
+
+- **menu:** ask each tool for its actions once per open
+- **agenda:** read the calendars once a scroll stops on a month
+- **agenda:** animate only the arrows and Today, not a scroll
+- **agenda:** find events' calls off the main actor
+- **agenda:** keep the menu one width whatever the month or day
+- **agenda:** keep the chosen day when the month moves
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.33.0/Whisk-0.33.0.zip" length="19761239" type="application/octet-stream" sparkle:edSignature="isDDc2g9pxSG4ZoiUvDtoMgT2BQnjRpPIZNQ7H9fRX+ZBsekE6c2/mqqh2tFXmWUEsMcRCkdJrY9HG+osr0qAQ==" />
+    </item>
+    <item>
       <title>Version 0.32.0</title>
       <pubDate>Thu, 15 Oct 2026 08:03:03 +0000</pubDate>
       <sparkle:version>810</sparkle:version>
