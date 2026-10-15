@@ -6,6 +6,42 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.32.0</title>
+      <pubDate>Thu, 15 Oct 2026 08:03:03 +0000</pubDate>
+      <sparkle:version>810</sparkle:version>
+      <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.32.0 — 2026-10-15
+
+### Features
+
+- **agenda:** scroll the month to the one before or after
+- **agenda:** put every calendar in one section, an account to a group
+- **settings:** one switch for automatic updates, and say what diagnostics share under it
+- **agenda:** set up the month and the event list on the page, as in Itsycal
+- **agenda:** list several days and say where an event is
+- **agenda:** draw the month as Itsycal does, across the menu's width
+
+### Bug Fixes
+
+- **settings:** follow a change Sparkle makes to automatic downloads
+- **agenda:** dim the arrow that goes no further
+- **settings:** stop automatic checks that the switch reads as off
+- **settings:** show the download symbol after the update row's title
+- **agenda:** turn an arrow off at the first or last month it can show
+- **agenda:** make the month's header buttons the HIG's least for a Mac control
+- **agenda:** move the month with every notch of a mouse wheel
+- **agenda:** show each month a scroll passes as it passes
+- **settings:** show automatic updates as off where only checks were on
+- **agenda:** keep an account open as its last calendar is turned off
+- **agenda:** turn the month's options off while the day strip is on top
+- **agenda:** give the month's header buttons a square to aim at
+- **calendar:** list only calendar apps, without the helper macOS opens files with
+- **agenda:** show each row's logo and drop the tooltip over its submenu
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.32.0/Whisk-0.32.0.zip" length="19753645" type="application/octet-stream" sparkle:edSignature="IpNI+MdbS/JSvgT/F6/eTh9tOQYbsWCGoQZU9K2rwxJxCA3/OfXmNgl3sKkmPD6tw8g896TwODnBkOlgCY+ZDw==" />
+    </item>
+    <item>
       <title>Version 0.31.0</title>
       <pubDate>Wed, 14 Oct 2026 18:42:10 +0000</pubDate>
       <sparkle:version>784</sparkle:version>
