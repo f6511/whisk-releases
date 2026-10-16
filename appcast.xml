@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.35.0</title>
+      <pubDate>Fri, 16 Oct 2026 11:40:25 +0000</pubDate>
+      <sparkle:version>912</sparkle:version>
+      <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.35.0 — 2026-10-16
+
+### Features
+
+- **switch:** record the trigger as Hold and press, as AltTab does
+- **switch:** turn off the system's Command-Tab while it is Switch's trigger
+
+### Bug Fixes
+
+- **switch:** a stored trigger with no modifier shows None for Hold
+- **switch:** recording keeps the field's width
+- **switch:** VoiceOver says Hold and Press once
+- **switch:** the Hold field fits all four modifiers
+- **switch:** a recorder left open reads the trigger set in another window
+- **switch:** Esc and Delete cancel and clear with a modifier still held
+- **switch:** leave a Command-Tab another app turned off as it was
+- **menubar:** measure a second line in the smaller font it is drawn in
+- **menubar:** call the new event items Event from Text and Screenshot
+- **agenda:** keep the join line's time and shorten the meeting's name
+- **menubar:** cut every tool's second line to the menu's width
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.35.0/Whisk-0.35.0.zip" length="20043834" type="application/octet-stream" sparkle:edSignature="u/AS6XSsk/IdgI+kWqEUBBh4Xj7XAYAzXVE3YX6D3OpY1MRXJc61MTD7Dg8wSkjn8B/N9/SHKjDulnEmaCVSDg==" />
+    </item>
+    <item>
       <title>Version 0.34.0</title>
       <pubDate>Fri, 16 Oct 2026 09:34:25 +0000</pubDate>
       <sparkle:version>887</sparkle:version>
