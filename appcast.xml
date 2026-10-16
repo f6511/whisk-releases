@@ -6,6 +6,29 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.38.0</title>
+      <pubDate>Fri, 16 Oct 2026 19:53:43 +0000</pubDate>
+      <sparkle:version>968</sparkle:version>
+      <sparkle:shortVersionString>0.38.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.38.0 — 2026-10-16
+
+### Features
+
+- **agenda:** toggle a calendar by clicking its name
+- **agenda:** show the menu preview first, on glass over the rooms' colors
+- **agenda:** set agenda's menu light or dark apart from the mac
+
+### Bug Fixes
+
+- **switch:** refresh the window list when no window is focused (WH-126)
+- **switch:** leave out windows an app keeps after they are closed (WH-126)
+- **switch:** leave no panel when a window cannot be brought forward (WH-126)
+- **switch:** count a switch as done once the window server takes it (WH-126)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.38.0/Whisk-0.38.0.zip" length="20118425" type="application/octet-stream" sparkle:edSignature="MPXaIB5YribMRnjhZGJPDflBB8IF/Lb1BIMpON47kItJ1mRzub/hVJtrZrl9ylwcgU1MiXb7Ogj+UNqneBaNCA==" />
+    </item>
+    <item>
       <title>Version 0.37.1</title>
       <pubDate>Fri, 16 Oct 2026 19:33:17 +0000</pubDate>
       <sparkle:version>954</sparkle:version>
