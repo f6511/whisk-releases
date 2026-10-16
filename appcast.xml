@@ -6,6 +6,30 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.36.0</title>
+      <pubDate>Fri, 16 Oct 2026 15:10:44 +0000</pubDate>
+      <sparkle:version>925</sparkle:version>
+      <sparkle:shortVersionString>0.36.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.36.0 — 2026-10-16
+
+### Features
+
+- **switch:** size, highlight, backdrop, hint and filter settings with a live preview
+- **switch:** know which windows are on the Space each display shows
+- **switch:** store the switcher's appearance and filter settings
+
+### Bug Fixes
+
+- **switch:** wait for the new Space's windows after a Space change
+- **switch:** new windows join an open session before those shown at the end
+- **switch:** select on hover follows movement inside the tile under the pointer
+- **switch:** hover selects only after the pointer moves once the panel shows
+- **switch:** let previews read the sample selection off the main actor
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.36.0/Whisk-0.36.0.zip" length="20097013" type="application/octet-stream" sparkle:edSignature="0A7IoylUTlBrTEvyDkfyUgQ+kCMPAuAIZJRxULZmw3Gp0zzgyk7GV6G7saRl1BpDVwY38bNrdvZzQpXD+jMsCw==" />
+    </item>
+    <item>
       <title>Version 0.35.0</title>
       <pubDate>Fri, 16 Oct 2026 11:40:25 +0000</pubDate>
       <sparkle:version>912</sparkle:version>
