@@ -6,6 +6,29 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.37.0</title>
+      <pubDate>Fri, 16 Oct 2026 18:40:00 +0000</pubDate>
+      <sparkle:version>940</sparkle:version>
+      <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.37.0 — 2026-10-16
+
+### Features
+
+- **switch:** reset settings and shortcut to defaults
+- **switch:** expand settings preview to actual size
+- **agenda:** one Menu section with its width and one preview
+- **agenda:** let the settings preview show sample events on request
+- **menubar:** save how wide the menu is and keep it to that width
+
+### Bug Fixes
+
+- **agenda:** save a custom width only when the slider moves a step
+- **switch:** observe shortcut resets in retained recorder
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.37.0/Whisk-0.37.0.zip" length="20102436" type="application/octet-stream" sparkle:edSignature="/s+mQZWoAwDlx6qXwoaFr0/e/QhnTJ8NG5FmuQ9db4/rGPB4eEgvnwKyG/ABQIUXt/cOg9p7OcEEkVR3sY9cDg==" />
+    </item>
+    <item>
       <title>Version 0.36.0</title>
       <pubDate>Fri, 16 Oct 2026 15:10:44 +0000</pubDate>
       <sparkle:version>925</sparkle:version>
