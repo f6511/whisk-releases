@@ -6,6 +6,22 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.37.1</title>
+      <pubDate>Fri, 16 Oct 2026 19:33:17 +0000</pubDate>
+      <sparkle:version>954</sparkle:version>
+      <sparkle:shortVersionString>0.37.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.37.1 — 2026-10-16
+
+### Bug Fixes
+
+- **meetings:** let an event no longer read give way to the next meeting
+- **meetings:** say on its page which calendars it reads
+- **meetings:** read only the calendars chosen in Agenda
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.37.1/Whisk-0.37.1.zip" length="20108269" type="application/octet-stream" sparkle:edSignature="QYeb5JN7/hCUOFa/yemMDq/dGt1KDYk5LYiZnBV3pGmh/bDHnHkexjt3xq1y1yX6i8FPQHG+hZ9m6FqDk83MBA==" />
+    </item>
+    <item>
       <title>Version 0.37.0</title>
       <pubDate>Fri, 16 Oct 2026 18:40:00 +0000</pubDate>
       <sparkle:version>940</sparkle:version>
