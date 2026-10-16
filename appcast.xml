@@ -6,6 +6,58 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.34.0</title>
+      <pubDate>Fri, 16 Oct 2026 09:34:25 +0000</pubDate>
+      <sparkle:version>887</sparkle:version>
+      <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.34.0 — 2026-10-16
+
+### Features
+
+- **switch:** AltTab's Thumbnails look, instant and never scrolling
+- **automation:** expose window switcher show and hide actions
+- **switch:** add the visual held-key window switcher
+- **switch:** add cross-space window discovery and focus
+- **agenda:** preview the event list on its page
+- **agenda:** put the clock and the month with the previews they change
+- **automation:** Show Notes and Hide Notes in the Alfred workflow
+- **meetings:** a Notes window in place of the Transcript panel (WH-112)
+- **meetings:** keep when each line of a meeting's notes was written
+
+### Bug Fixes
+
+- **switch:** Escape closes an error left by a failed switch
+- **switch:** a refresh cancelled by one switch cannot fail the next
+- **switch:** look up the focused window off the main actor
+- **switch:** don't watch windows from the unit tests' host
+- **permissions:** Accessibility counts as granted only with AX trust
+- **switch:** the shortcut warning on Switch's page follows a newly recorded shortcut
+- **switch:** a window opened since the last refresh still leaves the previous one next
+- **switch:** VoiceOver says the app name once when the title is the same
+- **switch:** the shortcut warning on Switch's page follows a newly recorded shortcut
+- **switch:** notice a window put into or out of full screen with its own button
+- **switch:** a tap released before the first window list never shows the panel
+- **switch:** refresh after an action even once the panel has closed
+- **switch:** wait for the inventory when the focused window is not in it yet
+- **switch:** skip a window closed in the background instead of showing an error
+- **permissions:** name Switch in the Accessibility and Screen Recording rationales
+- **agenda:** preview the event list with empty days left out
+- **agenda:** show a place in the sample list on its first day
+- **history:** show the notes in a transcript with no lines in it
+- **meetings:** notes for an event moved or deleted since stay within reach
+- **meetings:** keep notes written before a call until History has them
+- **history:** no row separator under a note in a meeting's transcript
+- **meetings:** notes without a time are not said to come before the call
+- **meetings:** notes for a meeting deleted meanwhile leave History alone
+
+### Performance
+
+- **switch:** redraw only the tiles whose window, preview or state changed
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.34.0/Whisk-0.34.0.zip" length="20025910" type="application/octet-stream" sparkle:edSignature="Lch29U3cHXyy47Mk5uqE0yWmeUCv1VDO+FV5Jf4jtaF54rRnNQyyp2CCVbqcVldfsq9xByP9SG1hvY83UWhRDw==" />
+    </item>
+    <item>
       <title>Version 0.33.1</title>
       <pubDate>Thu, 15 Oct 2026 18:31:15 +0000</pubDate>
       <sparkle:version>835</sparkle:version>
