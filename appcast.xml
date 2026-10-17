@@ -6,6 +6,81 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.41.1</title>
+      <pubDate>Sat, 17 Oct 2026 17:24:17 +0000</pubDate>
+      <sparkle:version>1143</sparkle:version>
+      <sparkle:shortVersionString>0.41.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.41.1 — 2026-10-17
+
+### Bug Fixes
+
+- **history:** count a change kept from a failed save once it is written
+- **history:** read a list again after a save to it failed
+- **history:** try a failed transcript read again on the next search
+- **dictate:** count words by the system's word breaks before a clean-up
+- **dictate:** end a dictation that heard nothing without saying so (WH-148)
+- **meetings:** give each audio export its own file, so a late one can't remove a newer one's
+- **meetings:** keep a drafts file that can't be opened, and save again once it's moved aside
+- **meetings:** let a cancelled audio export end as a cancel
+- **speech:** keep the model when it is asked for while an unload waits
+- **meetings:** count the buffer the end of a recording pushes out
+- **agenda:** end the manager's observers and clock when it is released
+- **dictate:** bound the audio waiting for the analyzer in bytes
+- **meetings:** bound the live transcript's audio queues in bytes
+- **meetings:** leave the notes to a recording that started during an earlier one's calendar read
+- **share:** put a slider back when the headset refuses the volume
+- **dictate:** fail a dictation whose recording couldn't be written
+- **meetings:** note dropped audio buffers in the capture diary
+- **meetings:** count audio buffers dropped while the file falls behind
+- **meetings:** end the meeting sheet's audio work when it closes
+- **preview:** keep the sleep and screen-lock observers' tokens
+- **agenda:** re-read the calendars once per burst of changes
+- **meetings:** mark expired audio removed only once it is
+- **meetings:** keep a notes drafts file that can't be read
+- **meetings:** save a transcript that has a time that isn't a number
+- **dictate:** let cancel reach a dictation that is finishing
+- **schedule:** let a cancelled capture show and add nothing
+- **preview:** stop a camera that started after it was replaced
+- **speech:** keep the Parakeet model while a meeting transcribes with it
+- **ci:** catch a view that builds a store or engine a service protocol describes
+- **ci:** count types declared inside a conditional block in the architecture check
+- **ci:** close six gaps in the architecture check
+- **ci:** don't nest a pinned tool inside one another job installed
+- **ci:** remove the download after installing a pinned tool
+- **ci:** rerun the checks when a PR's labels change
+- **ci:** compare the ratchet with the PR's base branch
+- **ci:** fail the ratchet when the base can't be read
+- **ci:** count only switch arms as catch-all defaults
+- **ci:** count escape hatches inside string interpolations
+- **concurrency:** resolve the remaining Swift 6 diagnostics at their cause
+- **meetings:** append meeting audio through Sendable CoreMedia types
+- **meetings:** give each speaker separation its own diarizer
+- **concurrency:** give the observation loops an owner
+
+### Performance
+
+- **meetings:** encode the live transcript kept at a stop off the main actor
+- **dictate:** stop the microphone off the main actor and hear it in smaller pieces
+- **dictate:** paste what was heard when a clean-up is slow, and skip it for a word or two
+- **dictate:** warm the chosen engine's model after launch, waking and changing it
+- **meetings:** keep the detail sheet's recording and names instead of reading them each pass
+- **history:** read a row's stored bytes for search only when the row changed
+- **meetings:** mark expired audio removed in one save
+- **history:** apply a change to its list instead of reading the table again
+- **meetings:** group only the live transcript's newest lines again
+- **meetings:** write and read transcripts' JSON off the main actor
+- **meetings:** put a meeting's two sides together off the main actor
+- **speech:** read and send recordings to OpenAI off the main actor
+- **meetings:** ask Core Audio about other apps off the main actor while recording
+
+### Reverts
+
+- **dictate:** keep the 4096-frame microphone tap
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.41.1/Whisk-0.41.1.zip" length="20287899" type="application/octet-stream" sparkle:edSignature="p9OO1u51u7xMCsG8OhjCiZEjRvHAXUpabuZeLT8xZPhzrQfK0eBl+NmIkFMNNOa2cMqy4dLoPcLhX+mcm2GDBw==" />
+    </item>
+    <item>
       <title>Version 0.41.0</title>
       <pubDate>Sat, 17 Oct 2026 10:40:30 +0000</pubDate>
       <sparkle:version>1036</sparkle:version>
