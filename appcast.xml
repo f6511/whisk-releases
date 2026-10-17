@@ -6,6 +6,21 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.40.0</title>
+      <pubDate>Sat, 17 Oct 2026 09:43:27 +0000</pubDate>
+      <sparkle:version>1025</sparkle:version>
+      <sparkle:shortVersionString>0.40.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.40.0 — 2026-10-17
+
+### Features
+
+- **updates:** say how every check the user started ended
+- **menubar:** offer check for updates from the right-click menu
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.40.0/Whisk-0.40.0.zip" length="20165441" type="application/octet-stream" sparkle:edSignature="kx2ltz6NGxiSQ1PQMnSGHcfduaID+JFdB0TbhQQfaShClWA0fogI/P66qWc9cuPnPzE40cOKAwKkkZ3MmF1mAQ==" />
+    </item>
+    <item>
       <title>Version 0.39.0</title>
       <pubDate>Sat, 17 Oct 2026 09:34:49 +0000</pubDate>
       <sparkle:version>1019</sparkle:version>
