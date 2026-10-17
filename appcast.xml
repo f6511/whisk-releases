@@ -6,6 +6,72 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.42.0</title>
+      <pubDate>Sat, 17 Oct 2026 21:25:09 +0000</pubDate>
+      <sparkle:version>1230</sparkle:version>
+      <sparkle:shortVersionString>0.42.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.42.0 — 2026-10-17
+
+### Features
+
+- **agenda:** choose the menu bar's look from presets or arrange it yourself (WH-137)
+- **settings:** add Quick answers for Claude Code under AI (WH-162)
+- **command-line:** let a program's input arrive after it has started
+- **agenda:** remind of a meeting a custom number of minutes before (WH-137)
+- **agenda:** keep the menu preview's room for either top and show only its settings (WH-137)
+- **switch:** add an app icons style and polish the panel (WH-138)
+- **agenda:** preview the menu with sample events only (WH-137)
+- **agenda:** offer the menu at a default or a relaxed width (WH-137)
+- **switch:** turn Switch on or off from its page (WH-156)
+- **meetings:** let the Notes window be minimized (WH-159)
+- **meetings:** preview the Notes window pinned (WH-141)
+- **meetings:** add a Float on Top pin to the Notes window (WH-141)
+- **meetings:** float the Notes window on top only while pinned (WH-141)
+
+### Bug Fixes
+
+- **agenda:** remind of a meeting just after midnight in time, and join it from the reminder (WH-137)
+- **agenda:** plan a reminder due tonight for a meeting just after midnight (WH-137)
+- **switch:** capture dropped previews again when Thumbnails returns (WH-138)
+- **agenda:** keep the pieces' switches drawn as switches (WH-137)
+- **command-line:** refuse late input as soon as the program ends
+- **agenda:** group the menu bar's presets as its style for VoiceOver (WH-137)
+- **agenda:** let the countdown's row move though its switch is off (WH-137)
+- **agenda:** name the separators in a pop-up of their own (WH-137)
+- **agenda:** reorder the menu bar's pieces with the form's reorder container (WH-137)
+- **agenda:** keep the logo first for a clock-first order without the clock (WH-137)
+- **schedule:** select a region without bringing Whisk's windows forward (WH-161)
+- **switch:** keep the fallback glyph to the icon's 60 % (WH-138)
+- **switch:** label one icon at a time, the hovered one first (WH-138)
+- **switch:** capture no previews in the app icons style (WH-138)
+- **switch:** add no observers for a start that Switch turned off overtook (WH-156)
+- **meetings:** take a minimized Notes window out of the Dock when hidden (WH-159)
+- **meetings:** bring a minimized Notes window back on the notes it left (WH-159)
+- **meetings:** bring a Notes window already shown forward on Show Notes (WH-141)
+- **meetings:** open an unpinned Notes window above the app in front (WH-141)
+- **agenda:** start sample events on the hour or half hour (WH-137)
+- **menubar:** open a menu set to follow the Mac in the Mac's appearance (WH-137)
+- **menubar:** open a status item's menu under the menu bar, not scrolled into it (WH-137)
+- **switch:** keep Finder from quitting, as AltTab does (WH-152)
+- **meetings:** widen the Notes window's minimum to fit the pin (WH-141)
+- **meetings:** show the permission pre-alert above the app in front (WH-139)
+- **updates:** show a check's result above the app in front (WH-139)
+
+### Performance
+
+- **schedule:** prepare the model as the capture starts (WH-162)
+- **llm:** warm Apple Intelligence up while an extraction is prepared (WH-162)
+- **llm:** start Claude Code early and read events from its text (WH-162)
+- **schedule:** fetch the window list while the user drags (WH-162)
+
+### Reverts
+
+- **agenda:** take back the reminder planning fix, which left tomorrow's reminder unable to join
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.42.0/Whisk-0.42.0.zip" length="20349261" type="application/octet-stream" sparkle:edSignature="t++Rno511+A8huXD24tyWr9pAhQ973N5G9+W5oPRBkx5vwEudzlBc/qZ+SvrwKdakPOWOz94GAIjlg5WZPYNCg==" />
+    </item>
+    <item>
       <title>Version 0.41.1</title>
       <pubDate>Sat, 17 Oct 2026 17:24:17 +0000</pubDate>
       <sparkle:version>1143</sparkle:version>
