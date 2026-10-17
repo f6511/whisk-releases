@@ -6,6 +6,37 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.43.0</title>
+      <pubDate>Sat, 17 Oct 2026 21:59:41 +0000</pubDate>
+      <sparkle:version>1248</sparkle:version>
+      <sparkle:shortVersionString>0.43.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.43.0 — 2026-10-17
+
+### Features
+
+- **dictate:** add a start sound and an option to type instead of paste
+- **dictate:** offer show text while dictating with parakeet
+- **dictate:** transcribe a parakeet dictation while it is spoken
+
+### Bug Fixes
+
+- **dictate:** sound a held fn once listening resumes after a download
+- **dictate:** keep a hands-free start silent when stopped while getting ready
+- **dictate:** ready the microphone again when the default input changes
+- **dictate:** load the start sound when dictate warms up
+- **dictate:** sound a hands-free start once it listens, not before a download
+- **dictate:** show parakeet's text only when asked and never step it back
+- **tests:** say why the benchmark ignores two errors
+- **tests:** make the benchmark's speech off the main actor
+
+### Performance
+
+- **dictate:** ready the microphone ahead of a dictation
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.43.0/Whisk-0.43.0.zip" length="20369326" type="application/octet-stream" sparkle:edSignature="ESOpir8+43/ZsntZljg7UadW0Gu+p11MjMmNsltcX/obQtOthM1YsSOEPFq3NNdo2MR0M0syV1hR3tUOYjcxCg==" />
+    </item>
+    <item>
       <title>Version 0.42.0</title>
       <pubDate>Sat, 17 Oct 2026 21:25:09 +0000</pubDate>
       <sparkle:version>1230</sparkle:version>
