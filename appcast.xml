@@ -6,6 +6,59 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.39.0</title>
+      <pubDate>Sat, 17 Oct 2026 09:34:49 +0000</pubDate>
+      <sparkle:version>1019</sparkle:version>
+      <sparkle:shortVersionString>0.39.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.39.0 — 2026-10-17
+
+### Features
+
+- **agenda:** choose where the menu opens under its item (WH-131)
+- **agenda:** say what a reminder click does and show meetings without a call
+- **updater:** download and restart from the sidebar's update button (WH-124)
+
+### Bug Fixes
+
+- **agenda:** empty Agenda's own menu when it lets its month go
+- **switch:** clear the shortcut's error as soon as the tap starts
+- **switch:** give each focus tracking start its own event stream
+- **dictate:** close the microphone when fn is let go of during startup (WH-127)
+- **switch:** check for a newer session again before the repair raise (WH-126)
+- **dictate:** leave a newer start's microphone open when an old one downloads (WH-127)
+- **history:** read again a kind whose read failed, with any change (WH-127)
+- **agenda:** look up calendar apps again after launches, quits and a while (WH-127)
+- **agenda:** drop the reminder's second line, which the Join button already says
+- **dictate:** open the microphone while the engine gets ready (WH-127)
+- **agenda:** open the month without a focus ring on its first arrow (WH-131)
+- **menubar:** keep the menu at its chosen width under a wide item (WH-131)
+- **notifications:** leave the reopen alone after a notification button
+- **agenda:** open the calendar app for a reminder whose meeting is gone
+- **updater:** let the whole slot take a click while the button has no circle (WH-124)
+- **updater:** forget "up to date" once an update is found (WH-124)
+- **updater:** keep an update on offer when installing it fails (WH-124)
+- **updater:** keep a retried download on offer while Sparkle is busy (WH-124)
+- **notifications:** keep a handled notification click from opening the main window
+
+### Performance
+
+- **agenda:** keep the month's hosting view between menu opens
+- **history:** decode a meeting's transcript off the main actor (WH-127)
+- **agenda:** build an event's submenu when it first opens
+- **switch:** wake monitoring on accessibility changes, not every second
+- **switch:** follow focus from ax notifications instead of a 300 ms poll
+- **dictate:** let go of other engines' models without waiting (WH-127)
+- **menu:** read the menu's width from Agenda instead of all settings (WH-127)
+- **agenda:** look up calendar apps once, not on every menu open (WH-127)
+- **history:** decode a meeting's transcript once per change (WH-127)
+- **meetings:** ask Core Audio about calls off the main actor (WH-127)
+- **history:** read again only the kind of entry that changed (WH-127)
+- **dictate:** hide the indicator at the paste, record History after it (WH-127)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.39.0/Whisk-0.39.0.zip" length="20158789" type="application/octet-stream" sparkle:edSignature="wUAqTqYGYXXmdoxPoVBZIm26AFqZ0CvhwSX7THA1XChYUum+okKKd5UZZQj6QVu2lC7jJbtGAr9ZNtNhCu8CCg==" />
+    </item>
+    <item>
       <title>Version 0.38.0</title>
       <pubDate>Fri, 16 Oct 2026 19:53:43 +0000</pubDate>
       <sparkle:version>968</sparkle:version>
