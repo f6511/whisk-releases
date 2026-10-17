@@ -6,6 +6,30 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.41.0</title>
+      <pubDate>Sat, 17 Oct 2026 10:40:30 +0000</pubDate>
+      <sparkle:version>1036</sparkle:version>
+      <sparkle:shortVersionString>0.41.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.41.0 — 2026-10-17
+
+### Features
+
+- **meetings:** a Notes window that reads as one page (WH-135)
+- **meetings:** give the notes a title of their own (WH-135)
+
+### Bug Fixes
+
+- **meetings:** show a rename from History over a title saved trimmed (WH-135)
+- **meetings:** let only the recording that took a typed title keep it (WH-135)
+- **meetings:** name the notes and transcript switch on hover (WH-135)
+- **meetings:** keep notes with only a title when History did not take it (WH-135)
+- **meetings:** keep a typed title that matches the one Whisk gives (WH-135)
+- **meetings:** write a typed title once, not with every note after (WH-135)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.41.0/Whisk-0.41.0.zip" length="20178467" type="application/octet-stream" sparkle:edSignature="7W+ngG/V+R/7H2uPt/Ah9qijm1Etx3cPEfZO+t1b/iwzxBGasLg06QdgxdpH7fhCMLF6odLvRWGzdWOWTM5JCQ==" />
+    </item>
+    <item>
       <title>Version 0.40.0</title>
       <pubDate>Sat, 17 Oct 2026 09:43:27 +0000</pubDate>
       <sparkle:version>1025</sparkle:version>
