@@ -6,6 +6,42 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.45.0</title>
+      <pubDate>Sun, 18 Oct 2026 08:27:12 +0000</pubDate>
+      <sparkle:version>1314</sparkle:version>
+      <sparkle:shortVersionString>0.45.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.45.0 — 2026-10-18
+
+### Features
+
+- **transcribe:** add the transcribe tool with its page, history and onboarding setup (WH-147)
+- **transcribe:** queue files and links and run them one at a time (WH-147)
+- **transcribe:** decode any audio or video and transcribe it with speakers (WH-147)
+- **transcribe:** keep transcripts of files and links in history (WH-147)
+- **transcribe:** route links and fetch a page's sound with yt-dlp (WH-147)
+- **transcribe:** write a transcript as text, subtitles or markdown (WH-147)
+
+### Bug Fixes
+
+- **transcribe:** preserve finished work and avoid repeated transcript scans
+- **transcribe:** take back a transcript whose save failed so trying again adds one
+- **transcribe:** let a file without an extension reach the decoder
+- **transcribe:** say getting ready while the model comes in, as dictate does
+- **transcribe:** show a cut-off failure in full on hover
+- **transcribe:** queue only audio and video files from a drop
+- **transcribe:** let a single voice be named, and name it on every line once it is
+- **transcribe:** stop waiting for the model when a file is cancelled
+- **transcribe:** keep a transcript that couldn't be saved in the queue
+- **transcribe:** keep a yt-dlp check from undoing an install under way
+
+### Performance
+
+- **transcribe:** work out the glyph page's lengths once
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.45.0/Whisk-0.45.0.zip" length="20567281" type="application/octet-stream" sparkle:edSignature="GMl0sLW2twGkWd6+7j66p4CSiUsL6JTnOcQ9RP0+WpfOtAACGpCtMzm9q6aMH4ZdX0DufhDp/I2nLlYzZSerBQ==" />
+    </item>
+    <item>
       <title>Version 0.44.0</title>
       <pubDate>Sun, 18 Oct 2026 08:05:32 +0000</pubDate>
       <sparkle:version>1288</sparkle:version>
