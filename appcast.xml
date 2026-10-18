@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.47.0</title>
+      <pubDate>Sun, 18 Oct 2026 16:54:55 +0000</pubDate>
+      <sparkle:version>1356</sparkle:version>
+      <sparkle:shortVersionString>0.47.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.47.0 — 2026-10-18
+
+### Features
+
+- **onboarding:** group tools under one dock tab and let switch be skipped (WH-176)
+- **permissions:** let a page show permission rows without their explanation (WH-176)
+
+### Bug Fixes
+
+- **onboarding:** draw other page dots stronger, more so with increased contrast (WH-176)
+- **onboarding:** tell VoiceOver a skipped tool is off (WH-176)
+- **onboarding:** give each page dot a 20 pt target (WH-176)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.47.0/Whisk-0.47.0.zip" length="20589224" type="application/octet-stream" sparkle:edSignature="vVg4hvt1IHHJkgltcPcZPhys27PYLPmLpbtxJHq2NB2ah0OsCKt0ANEwix3wkBQ6CaPd0feAPpRphXkkNMzXAg==" />
+    </item>
+    <item>
       <title>Version 0.46.0</title>
       <pubDate>Sun, 18 Oct 2026 13:24:50 +0000</pubDate>
       <sparkle:version>1348</sparkle:version>
