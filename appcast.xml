@@ -6,6 +6,52 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.44.0</title>
+      <pubDate>Sun, 18 Oct 2026 08:05:32 +0000</pubDate>
+      <sparkle:version>1288</sparkle:version>
+      <sparkle:shortVersionString>0.44.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.44.0 — 2026-10-18
+
+### Features
+
+- **agenda:** choose working hours and days for Create Event (WH-157)
+- **agenda:** create an event in the next free half hour from the menu (WH-157)
+- **dictate:** add the use what's on screen setting
+- **dictate:** capture and read the frontmost app's focused window
+- **dictate:** read the window being dictated into when asked to
+- **dictate:** let apple's engine and openai listen for the screen's terms
+- **llm:** give clean-up the window's text as reference, not instructions
+- **dictate:** pick out the names and terms in a window's text
+- **onboarding:** add an ai page and let a tool set itself up on its page (WH-144)
+
+### Bug Fixes
+
+- **ocr:** leave the warm-up sample out when the system font is missing (WH-166)
+- **ocr:** keep vision's reads within the escape-hatch baseline (WH-166)
+- **schedule:** give up on reading a capture after ten seconds (WH-166)
+- **agenda:** give Create Event's task an owner, one click at a time (WH-157)
+- **agenda:** start Create Event on the half hour when the hours don't (WH-157)
+- **onboarding:** drop the ai page's eyebrow left by the merge (WH-150)
+- **agenda:** name each weekday row for VoiceOver (WH-157)
+- **agenda:** keep working hours long enough for a half-hour slot (WH-157)
+- **dictate:** give screen text only the room the transcript leaves for apple's clean-up
+- **dictate:** read the window that has focus, not the one behind it
+- **dictate:** skip the screenshot when the read was cancelled during the lookup
+- **llm:** escape the window's text so it can't close its block
+- **onboarding:** say only that apple intelligence needs no key
+- **share:** say "Listen something, together." as the site does (WH-150)
+- **onboarding:** drop the eyebrow above the headline (WH-150)
+- **onboarding:** show a tool's shortcut before its setup
+- **onboarding:** fade a long page under back and continue
+
+### Performance
+
+- **schedule:** warm text recognition up while the region is chosen (WH-166)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.44.0/Whisk-0.44.0.zip" length="20411411" type="application/octet-stream" sparkle:edSignature="jaB87V6dUcl+WVjdo9RnM0Ww/f5C5OwQQIhVttDokQqALFR+QgVbz5CkTIKEwTGJ0bYMBJfL/Wxn5x1OAcvWBQ==" />
+    </item>
+    <item>
       <title>Version 0.43.0</title>
       <pubDate>Sat, 17 Oct 2026 21:59:41 +0000</pubDate>
       <sparkle:version>1248</sparkle:version>
