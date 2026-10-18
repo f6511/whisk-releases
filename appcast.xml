@@ -6,6 +6,41 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.46.0</title>
+      <pubDate>Sun, 18 Oct 2026 13:24:50 +0000</pubDate>
+      <sparkle:version>1348</sparkle:version>
+      <sparkle:shortVersionString>0.46.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.46.0 — 2026-10-18
+
+### Features
+
+- **agenda:** show a drag handle on each piece of the menu bar (WH-163)
+- **agenda:** offer countdown, with clock and custom, the clock between dots (WH-163)
+
+### Bug Fixes
+
+- **agenda:** key the clock's formatter on the calendar's week rules (WH-163)
+- **tests:** keep the Agenda page benchmark's page on the main actor (WH-163)
+- **agenda:** read a stored style no longer offered as the default (WH-163)
+- **app:** keep the unit-test host off the screen and the shortcuts
+- **switch:** count notes as focused while it has the keyboard (WH-165)
+- **switch:** list whisk's own windows, notes among them (WH-165)
+- **switch:** start the shortcut hint line with esc
+- **menubar:** open a status item's menu whole, not under an arrow (WH-163)
+
+### Performance
+
+- **agenda:** keep the clock's formatter while its pattern and place hold (WH-163)
+- **agenda:** keep the hidden month menu behind the day strip only (WH-163)
+
+### Reverts
+
+- **agenda:** keep both menus behind the preview, as before (WH-163)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.46.0/Whisk-0.46.0.zip" length="20575274" type="application/octet-stream" sparkle:edSignature="wmTlp1m3E4ixJD2fNQhVtdAOQroNX2XDJ8jMTEXhxoOvnvtoKQQuJ+TE+/bKNNRhDR1umXmiM+LnUFW+3C9mAw==" />
+    </item>
+    <item>
       <title>Version 0.45.0</title>
       <pubDate>Sun, 18 Oct 2026 08:27:12 +0000</pubDate>
       <sparkle:version>1314</sparkle:version>
