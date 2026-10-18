@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.48.0</title>
+      <pubDate>Sun, 18 Oct 2026 19:53:31 +0000</pubDate>
+      <sparkle:version>1379</sparkle:version>
+      <sparkle:shortVersionString>0.48.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.48.0 — 2026-10-18
+
+### Features
+
+- **transcribe:** show measured progress for each stage
+- **menu:** show downloading update while an update downloads (WH-167)
+- **updates:** ask to restart once a download the user started is ready (WH-167)
+
+### Bug Fixes
+
+- **transcribe:** keep single chunk uploads indeterminate
+- **transcribe:** ignore placeholder speech progress
+- **updates:** say there is nothing new when a retried download finds no update (WH-167)
+- **updates:** keep escape on later while restart has no return (WH-167)
+- **updates:** drop the restart prompt once the update can no longer install (WH-167)
+- **updates:** keep return off restart while it would stop a recording (WH-167)
+- **updates:** let escape answer later in the update alerts (WH-167)
+- **agenda:** own menu calendar opening task
+- **dictate:** separate completed sentence deliveries
+- **dictate:** sound at the press, and pick start and stop sounds (WH-170)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.48.0/Whisk-0.48.0.zip" length="20608396" type="application/octet-stream" sparkle:edSignature="xIU5rEy+DaxlQ6gL8BWQcuu4Iiu8v5MkY4zB8lD1CKVme4ZIPAwfYSXzIulB4GhcGe1O18Rd5Ht+ndanWdSqCw==" />
+    </item>
+    <item>
       <title>Version 0.47.0</title>
       <pubDate>Sun, 18 Oct 2026 16:54:55 +0000</pubDate>
       <sparkle:version>1356</sparkle:version>
