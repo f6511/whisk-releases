@@ -6,6 +6,39 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.49.0</title>
+      <pubDate>Mon, 19 Oct 2026 16:56:57 +0000</pubDate>
+      <sparkle:version>1405</sparkle:version>
+      <sparkle:shortVersionString>0.49.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.49.0 — 2026-10-19
+
+### Features
+
+- **agenda:** choose how long ended events stay on Agenda's page
+- **agenda:** leave today's long-ended events out of the list (WH-189)
+- **agenda:** keep a setting for how long ended events stay listed
+- **transcribe:** help install yt-dlp instead of installing it
+
+### Bug Fixes
+
+- **agenda:** measure the dot's room on the font the days use
+- **agenda:** add a sample event that ended ten minutes ago (WH-189)
+- **agenda:** shade today and outline the chosen day
+- **agenda:** mark a day with a square
+- **agenda:** keep a day's dot clear of today's mark
+- **agenda:** put the separator between the recording symbol and the meeting (WH-188)
+- **transcribe:** show when a yt-dlp check is under way
+- **transcribe:** name the install command's copy button for voiceover
+- **transcribe:** keep the queue's yt-dlp buttons readable
+- **transcribe:** show the whole install command
+- **transcribe:** look for homebrew without asking a login shell
+- **transcribe:** run a link when yt-dlp turns up while it is looked for
+- **transcribe:** let only the latest yt-dlp check set its status
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.49.0/Whisk-0.49.0.zip" length="20613738" type="application/octet-stream" sparkle:edSignature="nAtExOxQoqTUMxwbM5KfZlxRyUJBtVFbMLSyhUXDHEvRvAmrp5PvoGMhaF1nIb1XqDfNZifAXQqk3ikzRU1xDw==" />
+    </item>
+    <item>
       <title>Version 0.48.0</title>
       <pubDate>Sun, 18 Oct 2026 19:53:31 +0000</pubDate>
       <sparkle:version>1379</sparkle:version>
