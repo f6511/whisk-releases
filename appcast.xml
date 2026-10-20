@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.52.0</title>
+      <pubDate>Tue, 20 Oct 2026 16:35:42 +0000</pubDate>
+      <sparkle:version>1505</sparkle:version>
+      <sparkle:shortVersionString>0.52.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.52.0 — 2026-10-20
+
+### Features
+
+- **agenda:** default the clock format to week, date and time (WH-197)
+- **agenda:** offer customize only for custom, below the presets (WH-197)
+- **agenda:** write with clock's date and time as the mac's clock does (WH-197)
+
+### Bug Fixes
+
+- **main-window:** remove unused tool history request
+- **main-window:** allow direct navigation alongside other sheets
+- **transcribe:** open input on settings and reset tool tabs
+- **agenda:** draw day numbers with proportional digits
+- **agenda:** lay the month's days out in whole-point columns
+- **agenda:** label custom's customize button style (WH-197)
+
+### Performance
+
+- **agenda:** keep the clock's last few formatters, not one (WH-197)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.52.0/Whisk-0.52.0.zip" length="20677235" type="application/octet-stream" sparkle:edSignature="R0uYnqRcDbCd0E0xv4g/aPdBb7sb/ymTCNjVxiPYUgmgGkN7ZBoRASpDCVtz8E9rocGc1Atg2eTHtBH0SD+9Dw==" />
+    </item>
+    <item>
       <title>Version 0.51.0</title>
       <pubDate>Tue, 20 Oct 2026 10:01:25 +0000</pubDate>
       <sparkle:version>1491</sparkle:version>
