@@ -6,6 +6,76 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.51.0</title>
+      <pubDate>Tue, 20 Oct 2026 10:01:25 +0000</pubDate>
+      <sparkle:version>1491</sparkle:version>
+      <sparkle:shortVersionString>0.51.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.51.0 — 2026-10-20
+
+### Features
+
+- **meetings:** say when the live transcript is starting or waiting for speech beside the note
+- **meetings:** call the summary a recap
+- **meetings:** open the saved recording's note from its confirmation
+- **meetings:** make the notes window one note view, with recordings attached to notes
+- **meetings:** make each notes draft a note once, keeping a copy of the file
+- **meetings:** place note lines across a note's recordings
+- **meetings:** let a meeting entry be a note with an event and recordings
+- **meetings:** keep the last note shown and whether the library is shown
+- **agenda:** pick its calendars on the meetings onboarding page
+- **agenda:** turn agenda on and off
+- **dictate:** turn dictate on and off
+- **speech:** choose the engine and language in general
+- **meetings:** call the meetings feature notes
+- **suite:** present features by use case
+
+### Bug Fixes
+
+- **notes:** reserve interrupted recordings during recovery
+- **notes:** protect appended recordings and live transcript copies
+- **meetings:** know a migrated draft by its note's id, not by its writing
+- **meetings:** leave a note as it was when History cannot save a recording into it
+- **meetings:** show what a note's earlier recordings said while it is recorded again
+- **meetings:** leave a title renamed elsewhere when the note is saved
+- **meetings:** redo a transcription a quit cut short from the session it started at
+- **meetings:** copy the transcript of the note recorded last, not the one created last
+- **meetings:** keep a new note's writing History could not save, and the note shown
+- **meetings:** put the caret in a note once per request, not each time a note is picked
+- **meetings:** read why a transcript failed in secondary, not tertiary
+- **meetings:** show a recording is starting with a spinner in Record's place
+- **meetings:** keep ⌘2 to Recap and ⌘3 to Transcript whichever a note shows
+- **meetings:** copy a note's recap and transcript together from its More menu
+- **meetings:** say a suggested speaker name came with the recap
+- **meetings:** leave the focus in the library when a note is picked there
+- **meetings:** pause the note's recording when the Notes window is hidden or minimized
+- **meetings:** give a recording from outside the shown note only while the Notes window has the focus
+- **meetings:** clear the transcript's edited mark only when every recording is transcribed again
+- **meetings:** end a transcript edit when the note starts recording again
+- **meetings:** hold Record in a note whose audio was removed, and end a transcription it cannot make
+- **meetings:** migrate notes drafts only into a History that is all there
+- **meetings:** hold Record in a note while its transcript is being made
+- **meetings:** leave the Notes window hidden when its note is deleted elsewhere
+- **meetings:** keep the notes window's recording controls in reach and its title out of the caret's way
+- **meetings:** hand the live transcript's analyzer audio that never overlaps
+- **suite:** use the site's new description for Whisk and each use case
+- **onboarding:** describe Whisk as small tools for everyday jobs
+- **suite:** give each use case the room one of its tools wore before
+- **settings:** drop the use case eyebrow above a page's name
+- **speech:** say what following general does to a feature's own keys
+- **onboarding:** give what it does the weight of the other headers
+- **onboarding:** name the feature on its shortcut row
+- **agenda:** join nothing when turned off while join reads
+- **agenda:** start no clock when turned off during the first read
+- **sidebar:** build the sidebar's previews in debug only
+- **menu:** keep the shortcut of a tool that is off let go
+- **onboarding:** fit use-case pages and keep speech set up
+- **transcribe:** list vocabulary and replacements on its page
+- **schedule:** open its events in agenda's calendar app
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.51.0/Whisk-0.51.0.zip" length="20679732" type="application/octet-stream" sparkle:edSignature="j4zJ1BcpEbTg2aY2UlXJB7GKaYuU21NWh3oG+6q5ylfe5JaskEhuRWcDuiIBGYhWHS72UfXonaDSjwKIbkqMDg==" />
+    </item>
+    <item>
       <title>Version 0.50.0</title>
       <pubDate>Tue, 20 Oct 2026 06:47:30 +0000</pubDate>
       <sparkle:version>1413</sparkle:version>
