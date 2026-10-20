@@ -6,6 +6,26 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.50.0</title>
+      <pubDate>Tue, 20 Oct 2026 06:47:30 +0000</pubDate>
+      <sparkle:version>1413</sparkle:version>
+      <sparkle:shortVersionString>0.50.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.50.0 — 2026-10-20
+
+### Features
+
+- **agenda:** hide join next meeting while nothing is left today (WH-193)
+
+### Bug Fixes
+
+- **agenda:** count a text's own line breaks toward a submenu line's limit (WH-192)
+- **agenda:** keep an event's submenu at the menu's width and wrap its lines (WH-192)
+- **agenda:** keep a day's notice disabled when listed with the menu open (WH-191)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.50.0/Whisk-0.50.0.zip" length="20618120" type="application/octet-stream" sparkle:edSignature="YbANtxWM4ezaXsAy/YtKhFUZMxDmKRR9rHNlocwAtWvnzSRVQXcdjojfGXaVHN/VrqbnnyOAJbOl4NY6WXxHCg==" />
+    </item>
+    <item>
       <title>Version 0.49.0</title>
       <pubDate>Mon, 19 Oct 2026 16:56:57 +0000</pubDate>
       <sparkle:version>1405</sparkle:version>
