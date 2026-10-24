@@ -6,6 +6,52 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.53.0</title>
+      <pubDate>Sat, 24 Oct 2026 13:26:48 +0000</pubDate>
+      <sparkle:version>1545</sparkle:version>
+      <sparkle:shortVersionString>0.53.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.53.0 — 2026-10-24
+
+### Features
+
+- **notes:** polish the Notes window (WH-202)
+- **notes:** put a note's lines in its transcript's export
+- **notes:** add a screenshot to a note from its toolbar
+- **notes:** paste images into a note
+- **schedule:** event from text, typed or said, looked up by the model (WH-195)
+- **llm:** look up events on the web for a line the user typed or said
+- **schedule:** edit, pick a calendar and add events one by one in the list (WH-196)
+- **calendar:** write reviewed events through EventKit
+
+### Bug Fixes
+
+- **notes:** name the speakers of a live transcript as renamed
+- **notes:** offer Copy and Export of a transcript once it is read
+- **notes:** break a paragraph for a note written at its first line's time
+- **notes:** keep the title of a note that would fit without it, and follow the options while recording
+- **notes:** break a speaker's paragraph where a note was written in a transcript's export
+- **notes:** keep a shot ended by leaving its note out when the note is shown again
+- **notes:** end a screenshot under way when its note is left
+- **notes:** keep an image a copy put on the clipboard for a paste into another note
+- **notes:** clean up an image saved for a note left meanwhile
+- **notes:** keep an image on the clipboard for a paste into another note
+- **notes:** save a note's images one after the other
+- **notes:** hold on to an image being copied and keep pasted text off an image's line
+- **notes:** paste a note's clip with copies of its images
+- **notes:** keep images moved within a note and take out ones that can't be saved
+- **notes:** put the caret in the note's editor when the window asks
+- **notes:** offer paste for an image alone and put it in where it was pasted
+- **schedule:** let event from text's microphone start and finish once
+- **schedule:** report an add that finishes after event from text reopened
+- **schedule:** count adds finished after event from text closes, drop stale failures
+- **calendar:** fail a write to a calendar that is gone instead of using the default
+- **schedule:** lock the list while it writes, count what was added before a failure
+- **onboarding:** align use case headlines with updated wording
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.53.0/Whisk-0.53.0.zip" length="20871576" type="application/octet-stream" sparkle:edSignature="vCnjY34tOowFK0Kv9AYUv1G03k/QFNDl6aL1lmuRAMOP2BwfdpZiDRlwLyWuEum6PbBperfNy9RnWoWAV4eFBQ==" />
+    </item>
+    <item>
       <title>Version 0.52.0</title>
       <pubDate>Tue, 20 Oct 2026 16:35:42 +0000</pubDate>
       <sparkle:version>1505</sparkle:version>
