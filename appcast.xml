@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.53.1</title>
+      <pubDate>Sat, 24 Oct 2026 20:22:50 +0000</pubDate>
+      <sparkle:version>1549</sparkle:version>
+      <sparkle:shortVersionString>0.53.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.53.1 — 2026-10-24
+
+### Bug Fixes
+
+- **schedule:** drop the row's add button that shifted its text on hover
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.53.1/Whisk-0.53.1.zip" length="20864995" type="application/octet-stream" sparkle:edSignature="ISJaBzqtg8/YA65e14ZirGJjna3S2cLzXe8wtRHJKsPAZgkZGFxDS05a3lYEy71YayuDla+AVYNnjDuEXwC7AQ==" />
+    </item>
+    <item>
       <title>Version 0.53.0</title>
       <pubDate>Sat, 24 Oct 2026 13:26:48 +0000</pubDate>
       <sparkle:version>1545</sparkle:version>
