@@ -6,6 +6,26 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.54.0</title>
+      <pubDate>Sat, 24 Oct 2026 21:32:10 +0000</pubDate>
+      <sparkle:version>1557</sparkle:version>
+      <sparkle:shortVersionString>0.54.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.54.0 — 2026-10-24
+
+### Features
+
+- **shell:** show a tool's recent history on its page and push the rest
+
+### Bug Fixes
+
+- **shell:** keep recent rows in place when History reports an error
+- **shell:** keep a recent entry open as newer ones arrive
+- **transcribe:** stop the progress bar bouncing once it has a value
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.54.0/Whisk-0.54.0.zip" length="20890286" type="application/octet-stream" sparkle:edSignature="t2In39yYdn0LvdWTO6KNRLfmLBlpUlMpky9RzahCHSVben6RRETQXbzjyUu7zteG0+wCc/A62weXBvG8D3+UBA==" />
+    </item>
+    <item>
       <title>Version 0.53.1</title>
       <pubDate>Sat, 24 Oct 2026 20:22:50 +0000</pubDate>
       <sparkle:version>1549</sparkle:version>
