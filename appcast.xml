@@ -6,6 +6,29 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.55.0</title>
+      <pubDate>Sun, 25 Oct 2026 21:59:56 +0000</pubDate>
+      <sparkle:version>1568</sparkle:version>
+      <sparkle:shortVersionString>0.55.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.55.0 — 2026-10-25
+
+### Features
+
+- **ai:** sign in with ChatGPT and use its plan for AI (WH-218)
+
+### Bug Fixes
+
+- **ai:** let nothing else start while signing out of ChatGPT (WH-218)
+- **ai:** keep a model load begun during sign-out from undoing it (WH-218)
+- **ai:** show the ChatGPT account as it is after loading models (WH-218)
+- **ai:** renew a refused token when listing ChatGPT models (WH-218)
+- **ai:** refuse a renewed ChatGPT token without plan use on a retry (WH-218)
+- **ai:** keep a superseded ChatGPT renewal or sign-in from saving tokens (WH-218)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.55.0/Whisk-0.55.0.zip" length="20992533" type="application/octet-stream" sparkle:edSignature="eGO+dynJAssGDFUBO5parP+Ppok+ZpK6czKL6jVREUjoyPnnjC3j6sWKcifVg+wBuRK3vVlKjIjGFh2dT+qECw==" />
+    </item>
+    <item>
       <title>Version 0.54.0</title>
       <pubDate>Sat, 24 Oct 2026 21:32:10 +0000</pubDate>
       <sparkle:version>1557</sparkle:version>
