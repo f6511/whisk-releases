@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.55.1</title>
+      <pubDate>Mon, 26 Oct 2026 06:30:08 +0000</pubDate>
+      <sparkle:version>1571</sparkle:version>
+      <sparkle:shortVersionString>0.55.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.55.1 — 2026-10-26
+
+### Bug Fixes
+
+- **settings:** keep the AI provider you pick (WH-219)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.55.1/Whisk-0.55.1.zip" length="20995723" type="application/octet-stream" sparkle:edSignature="dNYIYCRMfmFmpd1xLWpxKqA0cDF10jOGepWRkJhEyrDcSQ0ifzr7hy/uloeVV/m9Z19EUylWfpk2QwBpJbkDDg==" />
+    </item>
+    <item>
       <title>Version 0.55.0</title>
       <pubDate>Sun, 25 Oct 2026 21:59:56 +0000</pubDate>
       <sparkle:version>1568</sparkle:version>
