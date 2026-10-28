@@ -6,6 +6,57 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.56.0</title>
+      <pubDate>Wed, 28 Oct 2026 00:55:26 +0000</pubDate>
+      <sparkle:version>1634</sparkle:version>
+      <sparkle:shortVersionString>0.56.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.56.0 — 2026-10-28
+
+### Features
+
+- **notes:** add appearance preferences and settings navigation
+- **meetings:** compose, edit and discuss recaps in the Notes window (WH-226)
+- **meetings:** run recaps with the user's own agent setup and report their steps (WH-226)
+- **command-line:** send standard output a line at a time while a program runs (WH-226)
+- **meetings:** write recaps from a kept setup and answer questions about them (WH-226)
+- **meetings:** add recap setup, model and step types to the summary request (WH-226)
+- **shell:** open the main window at launch
+- **notes:** integrate markdown editing and persistent image sizing
+- **notes:** vendor the approved native markdown engine
+- **settings:** list every action's link for Alfred in General (WH-221)
+- **notes:** add a shortcut that shows the Notes window or hides it (WH-221)
+
+### Bug Fixes
+
+- **chatgpt:** await loopback callback cleanup (WH-232)
+- **meetings:** count only a current, changed recap draft as an unsaved edit (WH-226)
+- **meetings:** let a recap edit that could not be saved stand over an answer (WH-226)
+- **meetings:** keep a recap's images through a revision (WH-226)
+- **meetings:** save recap edits still pending before an answer is applied (WH-226)
+- **meetings:** keep an emptied recap askable and its tab, and an overtaken draft overtaken (WH-226)
+- **notes:** omit separators for empty menu actions
+- **notes:** gate transcript playback on player visibility
+- **meetings:** keep recap edits, unsent input and runs from overwriting each other (WH-226)
+- **meetings:** count earlier notes against a recap's document limit (WH-226)
+- **meetings:** leave MCP tools to the user's own rules in read-only recaps (WH-226)
+- **meetings:** keep the recap inspector's picker and button clear at its width (WH-226)
+- **notes:** match the title background to the editor
+- **meetings:** keep the native player in one capsule
+- **notes:** fence pasted inline code longer than its backtick runs
+- **notes:** accept only ascii digits in ordered list markers
+- **notes:** continue and indent ordered lists written with a parenthesis
+- **notes:** keep ordered list start when copying as html
+- **notes:** paste own and plain text verbatim
+- **notes:** apply measured title inset after document attachment
+- **notes:** reconcile line metadata at attachment boundaries
+- **notes:** restore markdown clipboard behavior and paste undo
+- **notes:** scope image sizing to the clicked attachment
+- **notes:** fade the toolbar until the pointer nears it, and the title in place (WH-221)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.56.0/Whisk-0.56.0.zip" length="21977895" type="application/octet-stream" sparkle:edSignature="ekxfTb6hsIPh6NTG2E3mLYhuUUTlzHVKb63bx2X/J1N8UaTz9KUi2++ROUkzWirw/HLH358I/wcPtre8ef8PAA==" />
+    </item>
+    <item>
       <title>Version 0.55.1</title>
       <pubDate>Mon, 26 Oct 2026 06:30:08 +0000</pubDate>
       <sparkle:version>1571</sparkle:version>
