@@ -6,6 +6,22 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.56.1</title>
+      <pubDate>Wed, 28 Oct 2026 01:22:41 +0000</pubDate>
+      <sparkle:version>1641</sparkle:version>
+      <sparkle:shortVersionString>0.56.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.56.1 — 2026-10-28
+
+### Bug Fixes
+
+- **preview:** tint the controls' glass instead of dimming behind it
+- **preview:** start and stop the camera off the main thread
+- **preview:** fall back to the system default for a camera unplugged while shut
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.56.1/Whisk-0.56.1.zip" length="21987488" type="application/octet-stream" sparkle:edSignature="K4SSmjcjLKuE9NAmqA3gdz3b6Sh2jyI0UMhyNFeN33OYS5a/FqIbd17pI7yTCVLxwW51NJupAKzRLmi8K090CA==" />
+    </item>
+    <item>
       <title>Version 0.56.0</title>
       <pubDate>Wed, 28 Oct 2026 00:55:26 +0000</pubDate>
       <sparkle:version>1634</sparkle:version>
