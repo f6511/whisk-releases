@@ -6,6 +6,21 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.57.0</title>
+      <pubDate>Wed, 28 Oct 2026 05:55:40 +0000</pubDate>
+      <sparkle:version>1653</sparkle:version>
+      <sparkle:shortVersionString>0.57.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.57.0 — 2026-10-28
+
+### Features
+
+- **analytics:** report a new install under an id derived from the mac
+- **analytics:** record when an install turns diagnostics off
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.57.0/Whisk-0.57.0.zip" length="21970877" type="application/octet-stream" sparkle:edSignature="bFHyis/DP80MRTI4ejJrK2oacDiNsBxgM46+4IixPCoBiMTRmxfLoNcG5rUy+8o/d0B5VbJvLYaD7xqQ1LRCDw==" />
+    </item>
+    <item>
       <title>Version 0.56.2</title>
       <pubDate>Wed, 28 Oct 2026 05:12:10 +0000</pubDate>
       <sparkle:version>1647</sparkle:version>
