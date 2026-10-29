@@ -6,6 +6,22 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.60.1</title>
+      <pubDate>Thu, 29 Oct 2026 20:49:17 +0000</pubDate>
+      <sparkle:version>1734</sparkle:version>
+      <sparkle:shortVersionString>0.60.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.60.1 — 2026-10-29
+
+### Bug Fixes
+
+- **onboarding:** pad back and continue inside the bar's band (WH-216)
+- **menu-bar:** keep the meeting's logo in Agenda's title while recording (WH-245)
+- **notes:** open a note being recorded on its note, not its empty transcript (WH-246)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.60.1/Whisk-0.60.1.zip" length="22164314" type="application/octet-stream" sparkle:edSignature="9JNhEVDjqNEyjYqYtlt0li4Pr8ZDYcqmzIH1auA75I+csyFP8ihN/cJ4MLIg+43O5Uff+rKRZ4ZZtP1F2kprAA==" />
+    </item>
+    <item>
       <title>Version 0.60.0</title>
       <pubDate>Thu, 29 Oct 2026 17:29:44 +0000</pubDate>
       <sparkle:version>1725</sparkle:version>
