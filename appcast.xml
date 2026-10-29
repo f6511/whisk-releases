@@ -6,6 +6,40 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.59.0</title>
+      <pubDate>Thu, 29 Oct 2026 13:25:25 +0000</pubDate>
+      <sparkle:version>1713</sparkle:version>
+      <sparkle:shortVersionString>0.59.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.59.0 — 2026-10-29
+
+### Features
+
+- **notes:** keep every note's folder in ~/Whisk Notes, chosen on the Notes page (WH-237)
+- **notes:** write a note's folder of plain files into a folder of the user's (WH-237)
+
+### Bug Fixes
+
+- **notes:** end a kept note origin with the layout that follows (WH-243)
+- **notes:** see a change of tab after the window's width decided the toolbar (WH-243)
+- **notes:** keep a note under its title when a sidebar slides in or the window resizes (WH-243)
+- **notes:** keep the audio player beside the inspector, as wide as the note (WH-243)
+- **notes:** fade the toolbar only over the note with no sidebar beside it (WH-243)
+- **notes:** make the notes folder before the first note, so Show in Finder opens it (WH-237)
+- **notes:** find a note's folder the user hid (WH-237)
+- **notes:** write the rest of the notes when one batch fails (WH-237)
+- **notes:** let the notes folder's path wrap in settings (WH-237)
+- **notes:** never write through a symlink, keep an unread transcript and stop a rewrite the folder left (WH-237)
+- **alfred:** credit famos.dev and drop the Whisk Dev option (WH-240)
+- **command-line:** end what a stopped tool started (WH-233)
+
+### Performance
+
+- **notes:** lay the editor out again only when it kept an origin (WH-243)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.59.0/Whisk-0.59.0.zip" length="22137722" type="application/octet-stream" sparkle:edSignature="AkqnQ27erMSs02yON+DfzdJywK+tmqY5bzIrG55+n89pnGuhUy4jamjDnWJZHsDkF9Jxv/XnI0FHSwwioU6GAg==" />
+    </item>
+    <item>
       <title>Version 0.58.0</title>
       <pubDate>Thu, 29 Oct 2026 09:20:25 +0000</pubDate>
       <sparkle:version>1686</sparkle:version>
