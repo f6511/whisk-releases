@@ -6,6 +6,29 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.60.0</title>
+      <pubDate>Thu, 29 Oct 2026 17:29:44 +0000</pubDate>
+      <sparkle:version>1725</sparkle:version>
+      <sparkle:shortVersionString>0.60.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.60.0 — 2026-10-29
+
+### Features
+
+- **automation:** add Snap's links to the Alfred workflow (WH-244)
+- **snap:** add Snap to the Windows use case (WH-244)
+- **snap:** read and move the front window over Accessibility (WH-244)
+- **snap:** lay a window out on a side, centered or on another display (WH-244)
+
+### Bug Fixes
+
+- **snap:** refuse a window that resized but did not move (WH-244)
+- **snap:** fail quietly on an app that does not answer or takes no write (WH-244)
+- **snap:** drop a press that Snap was turned off during (WH-244)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.60.0/Whisk-0.60.0.zip" length="22164049" type="application/octet-stream" sparkle:edSignature="cq/WWESSIoDzgytwdyfLGVZjeq7rNr0GP8wxdIG8HKsNZ2BN3Xn1NbGQ5pDihZA/yV4KuYf8dod8JNipo6NgCQ==" />
+    </item>
+    <item>
       <title>Version 0.59.0</title>
       <pubDate>Thu, 29 Oct 2026 13:25:25 +0000</pubDate>
       <sparkle:version>1713</sparkle:version>
