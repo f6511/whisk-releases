@@ -6,6 +6,50 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.58.0</title>
+      <pubDate>Thu, 29 Oct 2026 09:20:25 +0000</pubDate>
+      <sparkle:version>1686</sparkle:version>
+      <sparkle:shortVersionString>0.58.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.58.0 — 2026-10-29
+
+### Features
+
+- **notes:** star the Audio Player switch to put it in the toolbar
+- **notes:** star inspector tools to put them in the toolbar
+- **alfred:** match tool names under the wh keyword (WH-240)
+- **notes:** tag a note and pick tags, sort and grouping in the library (WH-222)
+- **notes:** sort, group and filter the library by tag (WH-222)
+- **notes:** store tags on notes and the library's order in settings (WH-222)
+- **notes:** give every tab one inspector in place of the more menu
+
+### Bug Fixes
+
+- **notes:** name the tool in its star's VoiceOver label
+- **notes:** end rows without a star before the star column
+- **notes:** show an unstarred star while it has the keyboard focus
+- **notes:** load a toolbar tool stored twice once
+- **settings:** link the Alfred help page instead of explaining it (WH-240)
+- **notes:** search the library again after a change to any note (WH-222)
+- **notes:** search the library again once a failed note change is saved (WH-222)
+- **notes:** search the library again after a change to any note (WH-222)
+- **notes:** search the library again after any change to a note (WH-222)
+- **notes:** keep tagged notes, search tags again and pick a merged tag once (WH-222)
+- **notes:** hide the audio player switch while the recap setup hides the player
+- **notes:** copy and export the recap as the editor shows it
+- **notes:** fade the title on scroll in a tenth of a second (WH-236)
+
+### Performance
+
+- **notes:** build the inspector's actions once per update
+
+### Reverts
+
+- **notes:** back out the library search revision fixes (WH-222)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.58.0/Whisk-0.58.0.zip" length="22072511" type="application/octet-stream" sparkle:edSignature="3mHO25jcKKe66x4ixWn2jG0AMbrdpDr/KFjHRUc6L6xBjQge5hiksdtCmaagz8bf6+WLIez6RpGliPYAj1SfAA==" />
+    </item>
+    <item>
       <title>Version 0.57.0</title>
       <pubDate>Wed, 28 Oct 2026 05:55:40 +0000</pubDate>
       <sparkle:version>1653</sparkle:version>
