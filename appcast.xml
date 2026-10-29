@@ -6,6 +6,30 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.60.2</title>
+      <pubDate>Thu, 29 Oct 2026 21:34:03 +0000</pubDate>
+      <sparkle:version>1745</sparkle:version>
+      <sparkle:shortVersionString>0.60.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.60.2 — 2026-10-29
+
+### Bug Fixes
+
+- **meetings:** show what was said before a recording as read when it started (WH-247)
+- **meetings:** stop the earlier transcript blinking with each save while recording (WH-247)
+
+### Performance
+
+- **agenda:** open the menu without waiting on Launch Services (WH-247)
+- **schedule:** make event stores off the main actor (WH-247)
+- **notes:** leave transcript.md alone while its note is recorded (WH-247)
+- **meetings:** keep a line heard from building the note's whole view again (WH-247)
+- **notes:** keep a key typed from building the note's whole view again (WH-247)
+- **history:** find a meeting by its id instead of scanning every one (WH-247)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.60.2/Whisk-0.60.2.zip" length="22170612" type="application/octet-stream" sparkle:edSignature="SfSrpfggg98lHFs14JXAYVcS8tSNj4t97ChDClPDZjVgAWU5lQNAzlRJq3pST1DpSNGmHJDx6PucQF1qldfgCQ==" />
+    </item>
+    <item>
       <title>Version 0.60.1</title>
       <pubDate>Thu, 29 Oct 2026 20:49:17 +0000</pubDate>
       <sparkle:version>1734</sparkle:version>
