@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.64.0</title>
+      <pubDate>Fri, 30 Oct 2026 15:07:02 +0000</pubDate>
+      <sparkle:version>1785</sparkle:version>
+      <sparkle:shortVersionString>0.64.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.64.0 — 2026-10-30
+
+### Features
+
+- **meetings:** keep each transcription stage and whether voices were told apart
+- **speech:** decode long parakeet recordings between pauses and again where speech went missing
+- **automation:** open whisk's general page from a link and alfred's wh wh (WH-253)
+
+### Bug Fixes
+
+- **speech:** keep a recovered word that repeats the word beside its gap
+- **speech:** decode again what a partial repair leaves before a gap's new words
+- **speech:** join windows at the pair of words heard closest together
+- **speech:** try a repair from the gap's first speech as well as its next onset
+- **meetings:** report no speakers when separation finds no voice
+- **speech:** hear a quiet recording and start a repair at the next onset
+
+### Performance
+
+- **speech:** join windows within the overlap instead of the whole transcript
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.64.0/Whisk-0.64.0.zip" length="22330393" type="application/octet-stream" sparkle:edSignature="8+2ZllJcSW3N0trOJb+yneuvvkQyZgmWjrfe4mp2cdE+xVb+QxI0OplJ41taVsNmDuJvqeF+sylfLeHKw8HmAA==" />
+    </item>
+    <item>
       <title>Version 0.63.0</title>
       <pubDate>Fri, 30 Oct 2026 11:19:45 +0000</pubDate>
       <sparkle:version>1771</sparkle:version>
