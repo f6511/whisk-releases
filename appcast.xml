@@ -6,6 +6,28 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.61.1</title>
+      <pubDate>Fri, 30 Oct 2026 09:33:11 +0000</pubDate>
+      <sparkle:version>1761</sparkle:version>
+      <sparkle:shortVersionString>0.61.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.61.1 — 2026-10-30
+
+### Bug Fixes
+
+- **switch:** keep queued actions on their accepted window
+- **switch:** retain explicit commit requests while loading
+- **switch:** filter pending sessions before UI delivery
+
+### Performance
+
+- **history:** reuse folded search fields and record measurements
+- **menu:** reuse date formatters and skip identical titles
+- **switch:** move keyboard filtering to an owned thread
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.61.1/Whisk-0.61.1.zip" length="22195099" type="application/octet-stream" sparkle:edSignature="tT3yPvjS8imF32saE0/wFJa37IUUPycWc9QulxjsUrQvQ69YU6ZNT8m2WFoGDmccqxacE7By8Z4NkGOeYrLVCQ==" />
+    </item>
+    <item>
       <title>Version 0.61.0</title>
       <pubDate>Thu, 29 Oct 2026 21:40:01 +0000</pubDate>
       <sparkle:version>1753</sparkle:version>
