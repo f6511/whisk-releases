@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.62.0</title>
+      <pubDate>Fri, 30 Oct 2026 10:08:10 +0000</pubDate>
+      <sparkle:version>1768</sparkle:version>
+      <sparkle:shortVersionString>0.62.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.62.0 — 2026-10-30
+
+### Features
+
+- **onboarding:** try each feature once, one at a time, then Shortcuts and Ready (WH-199)
+- **schedule:** let a capture keep a chosen Whisk window in the shot (WH-199)
+- **ai:** say what Claude Code and Codex run on, and where to see why Apple Intelligence isn't ready (WH-199)
+- **settings:** leave Whisk out of the Dock until Show in Dock is on (WH-199)
+
+### Bug Fixes
+
+- **onboarding:** end a dictation left under way, and keep the link field without yt-dlp (WH-199)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.62.0/Whisk-0.62.0.zip" length="22307932" type="application/octet-stream" sparkle:edSignature="KrlfpZLurRMiEXMw7/dwLvTc+7IuadSKRmpMhfp3B0ehwgnkdBFwjm3DAonI13hW8EX9A3sXdKvnGJSc2rXJCQ==" />
+    </item>
+    <item>
       <title>Version 0.61.1</title>
       <pubDate>Fri, 30 Oct 2026 09:33:11 +0000</pubDate>
       <sparkle:version>1761</sparkle:version>
