@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.63.0</title>
+      <pubDate>Fri, 30 Oct 2026 11:19:45 +0000</pubDate>
+      <sparkle:version>1771</sparkle:version>
+      <sparkle:shortVersionString>0.63.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.63.0 — 2026-10-30
+
+### Features
+
+- **snap:** maximize the focused window with control-option-return
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.63.0/Whisk-0.63.0.zip" length="22319006" type="application/octet-stream" sparkle:edSignature="i4Ex+ztdYB2A9ZGm5QDQTHRfmki/ifPtAsiDxPtoNUCUEMkPo51vkvIIWAtCLAsENYIz4MhkEux3KtwBJoxlCg==" />
+    </item>
+    <item>
       <title>Version 0.62.0</title>
       <pubDate>Fri, 30 Oct 2026 10:08:10 +0000</pubDate>
       <sparkle:version>1768</sparkle:version>
