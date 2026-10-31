@@ -6,6 +6,33 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.64.1</title>
+      <pubDate>Sat, 31 Oct 2026 08:29:06 +0000</pubDate>
+      <sparkle:version>1799</sparkle:version>
+      <sparkle:shortVersionString>0.64.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.64.1 — 2026-10-31
+
+### Bug Fixes
+
+- **share:** stop the volume keys' worker when its service is released
+- **share:** deliver no volume key after monitoring stops
+- **meetings:** read text replacements once a recording is transcribed
+
+### Performance
+
+- **history:** let go of what a search read once it is cleared
+- **share:** run the volume keys' tap on a thread of its own
+- **meetings:** stop decoding whole transcripts on the main actor to look at them
+- **meetings:** build the Notes window the first time it is shown
+- **meetings:** tell whether a live transcript changed without building it
+- **switch:** capture only the window left when focus moves
+- **agenda:** read the calendars through one event store
+- **meetings:** ask an audio process whether it runs before who it is
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.64.1/Whisk-0.64.1.zip" length="22343464" type="application/octet-stream" sparkle:edSignature="Mn6UWVpk753HPqTFsMu2AepGCWdZMDVI+yQSsqxfQwe/9o8Hjw3S3aSt2M+f3uMRyzZNTVjNKd1WDYuIe91TAQ==" />
+    </item>
+    <item>
       <title>Version 0.64.0</title>
       <pubDate>Fri, 30 Oct 2026 15:07:02 +0000</pubDate>
       <sparkle:version>1785</sparkle:version>
