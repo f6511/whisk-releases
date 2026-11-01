@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.65.0</title>
+      <pubDate>Sun, 01 Nov 2026 10:56:59 +0000</pubDate>
+      <sparkle:version>1802</sparkle:version>
+      <sparkle:shortVersionString>0.65.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.65.0 — 2026-11-01
+
+### Features
+
+- **onboarding:** drop the shortcuts page for a line on ready (WH-255)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.65.0/Whisk-0.65.0.zip" length="22329598" type="application/octet-stream" sparkle:edSignature="1kDHPrnvSkrsBTamajDnvB4KwY0zsOcS47L+aXpmoYrYrDODgYcrC6k62YidSazg3cRxnatLtlhBl7BHTVifCQ==" />
+    </item>
+    <item>
       <title>Version 0.64.1</title>
       <pubDate>Sat, 31 Oct 2026 08:29:06 +0000</pubDate>
       <sparkle:version>1799</sparkle:version>
