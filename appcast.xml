@@ -6,6 +6,24 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.67.0</title>
+      <pubDate>Sun, 01 Nov 2026 22:34:57 +0000</pubDate>
+      <sparkle:version>1814</sparkle:version>
+      <sparkle:shortVersionString>0.67.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.67.0 — 2026-11-01
+
+### Features
+
+- **automation:** add Alfred update actions
+
+### Bug Fixes
+
+- **updates:** raise background restart confirmation
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.67.0/Whisk-0.67.0.zip" length="22342628" type="application/octet-stream" sparkle:edSignature="yY0JclxitTTVKbkL4xe8BMv08qH5fQ3w4WYIsxfcYekyV/cZ6j3r106Kk5diOM60yHFyl2KawppSTfsauqH9AA==" />
+    </item>
+    <item>
       <title>Version 0.66.0</title>
       <pubDate>Sun, 01 Nov 2026 18:02:03 +0000</pubDate>
       <sparkle:version>1810</sparkle:version>
