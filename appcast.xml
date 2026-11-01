@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.66.0</title>
+      <pubDate>Sun, 01 Nov 2026 18:02:03 +0000</pubDate>
+      <sparkle:version>1810</sparkle:version>
+      <sparkle:shortVersionString>0.66.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.66.0 — 2026-11-01
+
+### Features
+
+- **ai:** pick a model for each tool's own provider (WH-256)
+- **schedule:** read a stay as a check-in and a checkout of an hour each (WH-256)
+
+### Bug Fixes
+
+- **ai:** name the provider's new model in a tool's Default once it is saved (WH-256)
+- **schedule:** name Schedule's own model while it reads (WH-256)
+- **chatgpt:** name JSON in the input of every request that asks for it (WH-256)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.66.0/Whisk-0.66.0.zip" length="22334954" type="application/octet-stream" sparkle:edSignature="HoeRfjH9Tlb32eSYPhNKygA0AlGcYM25d6v1F/l9XctFp8gNOPGn+Wbv+Cnlp/AgAuAlp2yCrsOjb7IMshLRCQ==" />
+    </item>
+    <item>
       <title>Version 0.65.0</title>
       <pubDate>Sun, 01 Nov 2026 10:56:59 +0000</pubDate>
       <sparkle:version>1802</sparkle:version>
