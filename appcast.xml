@@ -6,6 +6,24 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.73.0</title>
+      <pubDate>Mon, 02 Nov 2026 13:34:51 +0000</pubDate>
+      <sparkle:version>1881</sparkle:version>
+      <sparkle:shortVersionString>0.73.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.73.0 — 2026-11-02
+
+### Features
+
+- **meetings:** open the notes when recording from the call offer (WH-267)
+
+### Bug Fixes
+
+- **meetings:** open the notes from the call offer only on the note it records (WH-267)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.73.0/Whisk-0.73.0.zip" length="22493677" type="application/octet-stream" sparkle:edSignature="P/rd3Bk3PPAAPJLKwVvQ2LxFYaXfJ6JpMMp7rQYIhraQBk8gifBAduxhTglZcEmbiD+zgDhOuGF7GZ3GdoQTBg==" />
+    </item>
+    <item>
       <title>Version 0.72.0</title>
       <pubDate>Mon, 02 Nov 2026 13:21:25 +0000</pubDate>
       <sparkle:version>1876</sparkle:version>
