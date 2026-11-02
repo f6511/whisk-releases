@@ -6,6 +6,39 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.74.0</title>
+      <pubDate>Mon, 02 Nov 2026 22:59:43 +0000</pubDate>
+      <sparkle:version>1904</sparkle:version>
+      <sparkle:shortVersionString>0.74.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.74.0 — 2026-11-02
+
+### Features
+
+- **notes:** show the tag count on the collapsed tags and even the chips' padding (WH-268)
+- **notes:** offer the five most used tags when the tag field takes the focus (WH-268)
+
+### Bug Fixes
+
+- **notes:** give back the inspector's room from where the window is now (WH-270)
+- **notes:** grow a window on no screen where it is (WH-270)
+- **notes:** leave a window being dragged where the user has it (WH-270)
+- **notes:** keep the inspector's room through a quick re-show or a resize (WH-270)
+- **notes:** leave a new note's focus request to its own view (WH-270)
+- **notes:** grow the window for the inspector and give the width back (WH-270)
+- **notes:** fit the toolbar to its width instead of AppKit's » menu (WH-270)
+- **main:** remove the sidebar bottom fade (WH-271)
+- **main:** end the sidebar's list in the version instead of pinning it (WH-269)
+- **notes:** keep a tag the note has out of the suggestions when it is typed again (WH-268)
+- **notes:** keep typed tags with the note they were typed into (WH-268)
+
+### Reverts
+
+- **notes:** give back the inspector's room from where the window is now (WH-270)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.74.0/Whisk-0.74.0.zip" length="22508084" type="application/octet-stream" sparkle:edSignature="TVO5qXX5zrX+vVVsMeAC0LTvxVa5ob+M5RazQOQos6KzJgNu1NSJdTY3POy3S5bVQGqQwn/KVSPay+N6tEe6Cg==" />
+    </item>
+    <item>
       <title>Version 0.73.0</title>
       <pubDate>Mon, 02 Nov 2026 13:34:51 +0000</pubDate>
       <sparkle:version>1881</sparkle:version>
