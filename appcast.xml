@@ -6,6 +6,35 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.69.0</title>
+      <pubDate>Mon, 02 Nov 2026 11:15:04 +0000</pubDate>
+      <sparkle:version>1844</sparkle:version>
+      <sparkle:shortVersionString>0.69.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.69.0 — 2026-11-02
+
+### Features
+
+- **stats:** show Stats from a shortcut, links and onboarding (WH-261)
+- **system:** give the System use case a core glyph of its own (WH-261)
+- **main:** open What's New from the sidebar's version, with a dot until it is read (WH-260)
+- **changelog:** leave issue refs and developer-only entries out of the notes (WH-260)
+- **general:** add Local, which keeps Whisk off the internet (WH-262)
+- **menu:** drop the use-case headers from the right-click menu (WH-259)
+- **switch:** take Switch Windows out of the menus (WH-259)
+
+### Bug Fixes
+
+- **stats:** say so in onboarding when every row is hidden (WH-261)
+- **shell:** let go of tool shortcuts while a tool's own menu is open (WH-261)
+- **meetings:** show a recap's saved model again once Local is turned off (WH-262)
+- **meetings:** keep Settings' recap model through a first recap written while Local (WH-262)
+- **changelog:** leave an update unread when its notes finish loading after the page is gone (WH-260)
+- **general:** keep Local's stand-ins true across meetings, recaps and updates (WH-262)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.69.0/Whisk-0.69.0.zip" length="22407719" type="application/octet-stream" sparkle:edSignature="TVQQV8me8zKxvpE3ocJ0fXMAF3JmN/peph53WBTos0MC7Jrr5PboOVzBXEjT03OnZPS/5JsGnZyqTRDhtiPrAA==" />
+    </item>
+    <item>
       <title>Version 0.68.0</title>
       <pubDate>Mon, 02 Nov 2026 03:17:00 +0000</pubDate>
       <sparkle:version>1821</sparkle:version>
