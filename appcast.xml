@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.71.0</title>
+      <pubDate>Mon, 02 Nov 2026 12:52:23 +0000</pubDate>
+      <sparkle:version>1856</sparkle:version>
+      <sparkle:shortVersionString>0.71.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.71.0 — 2026-11-02
+
+### Features
+
+- **voice:** name snippets in voice's headline and summary (WH-265)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.71.0/Whisk-0.71.0.zip" length="22448434" type="application/octet-stream" sparkle:edSignature="ejJe/9GbZlyTZQJF6DaRXZjdtaEyv//bQ4WMiVEwl2ystNJAOpfHcptb58KC3jK6eRGxmCbN5mOhpNQdOZ1iCg==" />
+    </item>
+    <item>
       <title>Version 0.70.0</title>
       <pubDate>Mon, 02 Nov 2026 11:47:31 +0000</pubDate>
       <sparkle:version>1853</sparkle:version>
