@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.68.0</title>
+      <pubDate>Mon, 02 Nov 2026 03:17:00 +0000</pubDate>
+      <sparkle:version>1821</sparkle:version>
+      <sparkle:shortVersionString>0.68.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.68.0 — 2026-11-02
+
+### Features
+
+- **stats:** add Stats to the right-click menu and rename Audio to System (WH-258)
+- **shell:** let a tool's menu item open a submenu (WH-258)
+
+### Bug Fixes
+
+- **stats:** share one read loop between the page and the menu (WH-258)
+- **stats:** read only while the page can be seen and stop at once when a look ends (WH-258)
+- **ci:** match a tool's name only where it ends a word (WH-258)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.68.0/Whisk-0.68.0.zip" length="22378936" type="application/octet-stream" sparkle:edSignature="xdL98QysOuYuaSV5QDckVGb7h3uDbvbXJzWGQTpXwtXpXg4H7haUF2R5e061djL8aQpfMihJR9L/RQxryfRnDw==" />
+    </item>
+    <item>
       <title>Version 0.67.0</title>
       <pubDate>Sun, 01 Nov 2026 22:34:57 +0000</pubDate>
       <sparkle:version>1814</sparkle:version>
