@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.70.0</title>
+      <pubDate>Mon, 02 Nov 2026 11:47:31 +0000</pubDate>
+      <sparkle:version>1853</sparkle:version>
+      <sparkle:shortVersionString>0.70.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.70.0 — 2026-11-02
+
+### Features
+
+- **snippets:** expand abbreviations into snippets in the voice use case (WH-263)
+- **input:** watch typed text for triggers and replace what was typed (WH-263)
+
+### Bug Fixes
+
+- **snippets:** pause snippets while their list is open (WH-263)
+- **snippets:** start over after what whisk types, so a dictation is never deleted (WH-263)
+- **snippets:** drop a match that typing, a restart or a dead key made stale (WH-263)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.70.0/Whisk-0.70.0.zip" length="22448709" type="application/octet-stream" sparkle:edSignature="0UWDMfYgUw9/qomI9q02vGpFsmmneEvsi5OZLSOfkk07t5JrTWYMr5bVMoTBv+lXGJKuIUWR01NftTlAEqLzBw==" />
+    </item>
+    <item>
       <title>Version 0.69.0</title>
       <pubDate>Mon, 02 Nov 2026 11:15:04 +0000</pubDate>
       <sparkle:version>1844</sparkle:version>
