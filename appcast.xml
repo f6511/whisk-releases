@@ -6,6 +6,37 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.72.0</title>
+      <pubDate>Mon, 02 Nov 2026 13:21:25 +0000</pubDate>
+      <sparkle:version>1876</sparkle:version>
+      <sparkle:shortVersionString>0.72.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.72.0 — 2026-11-02
+
+### Features
+
+- **snippets:** use the AI provider chosen for snippets (WH-266)
+- **ai:** write snippet drafts with every provider (WH-266)
+- **ai:** ask for a snippet draft and read the reply (WH-266)
+- **ai:** give snippets an AI provider and model of their own (WH-266)
+- **snippets:** edit snippets in a list beside a full-height editor (WH-266)
+- **snippets:** select, label and create snippets with AI in the manager (WH-266)
+- **ai:** add the snippet draft request to LLMService (WH-266)
+- **snippets:** store an optional label with each snippet (WH-266)
+- **snippets:** open the list from whisk://snippets/show and Alfred (WH-266)
+- **snippets:** fill {{date:pattern}} placeholders as a snippet is typed (WH-266)
+
+### Bug Fixes
+
+- **snippets:** move the selection on when a snippet is deleted from the context menu (WH-266)
+- **snippets:** keep the retried snippet's abbreviation when the new answer's is in use (WH-266)
+- **snippets:** keep retry's snippet as the one replaced when create is pressed after a failed retry (WH-266)
+- **snippets:** keep the AI's snippet until a retry replaces it and drop answers a new description overtook (WH-266)
+- **snippets:** name the unreadable-answer errors without a catch-all (WH-266)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.72.0/Whisk-0.72.0.zip" length="22501191" type="application/octet-stream" sparkle:edSignature="zOf/eVUP26UPiGb5aDPHs2rnXhkG/m+lahr59r8F7t3iqeRVVETZKoezuOZbNBrJDkxvsD2o8d25Byj+svJ+Cg==" />
+    </item>
+    <item>
       <title>Version 0.71.0</title>
       <pubDate>Mon, 02 Nov 2026 12:52:23 +0000</pubDate>
       <sparkle:version>1856</sparkle:version>
