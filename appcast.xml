@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.75.0</title>
+      <pubDate>Tue, 03 Nov 2026 21:22:55 +0000</pubDate>
+      <sparkle:version>1911</sparkle:version>
+      <sparkle:shortVersionString>0.75.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.75.0 — 2026-11-03
+
+### Features
+
+- **notes:** create calendar events from notes
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.75.0/Whisk-0.75.0.zip" length="22551721" type="application/octet-stream" sparkle:edSignature="Jmw8ohOm+zqk47MGDCz1CKxLwbZD6BeUOmBpMKo5/EeLkiY/RHtnRkzoRhDBbN2halqUYG36N7LEWWzwRs78CQ==" />
+    </item>
+    <item>
       <title>Version 0.74.1</title>
       <pubDate>Tue, 03 Nov 2026 13:11:02 +0000</pubDate>
       <sparkle:version>1908</sparkle:version>
