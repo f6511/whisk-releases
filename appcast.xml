@@ -6,6 +6,21 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.74.1</title>
+      <pubDate>Tue, 03 Nov 2026 13:11:02 +0000</pubDate>
+      <sparkle:version>1908</sparkle:version>
+      <sparkle:shortVersionString>0.74.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.74.1 — 2026-11-03
+
+### Bug Fixes
+
+- **notes:** line the live transcript and transcript editor up with the note (WH-272)
+- **notes:** start the title, event line, tags and transcript where the note does (WH-272)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.74.1/Whisk-0.74.1.zip" length="22508248" type="application/octet-stream" sparkle:edSignature="Shd6qWsC1VChBMkWwBGrZK6ImFcOEVbqH8dieWPw3oRolrQiOHaiugGx76EmCvI+XJ2aAxFaB3WUlV6ogAdFAw==" />
+    </item>
+    <item>
       <title>Version 0.74.0</title>
       <pubDate>Mon, 02 Nov 2026 22:59:43 +0000</pubDate>
       <sparkle:version>1904</sparkle:version>
