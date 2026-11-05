@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.76.1</title>
+      <pubDate>Thu, 05 Nov 2026 23:20:39 +0000</pubDate>
+      <sparkle:version>1927</sparkle:version>
+      <sparkle:shortVersionString>0.76.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.76.1 — 2026-11-06
+
+### Bug Fixes
+
+- **menubar:** end a status item's press once its menu closes (WH-277)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.76.1/Whisk-0.76.1.zip" length="22556980" type="application/octet-stream" sparkle:edSignature="cWZD7NXYHzTIYOMPXMWCf63ziFB2WNfl5GGrEqgkxCEitgkCZaFz9LS30veODLxe4/NmZQJYqmHfwQc+vV61CA==" />
+    </item>
+    <item>
       <title>Version 0.76.0</title>
       <pubDate>Thu, 05 Nov 2026 11:33:53 +0000</pubDate>
       <sparkle:version>1923</sparkle:version>
