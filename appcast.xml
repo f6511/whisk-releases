@@ -6,6 +6,25 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.76.0</title>
+      <pubDate>Thu, 05 Nov 2026 11:33:53 +0000</pubDate>
+      <sparkle:version>1923</sparkle:version>
+      <sparkle:shortVersionString>0.76.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.76.0 — 2026-11-05
+
+### Features
+
+- **notes:** use compact native timing sheets
+- **notes:** set local times and confirm events in calendar
+
+### Bug Fixes
+
+- **notes:** restore timing when saving fails
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.76.0/Whisk-0.76.0.zip" length="22564020" type="application/octet-stream" sparkle:edSignature="uU+Td2bF2/23/w9rVFmi0z25f752driy6B7d3kfIfscRIT2nkZoGanpr/fpcPggtz9g46Hm5y9A0SjQJ7zDSDw==" />
+    </item>
+    <item>
       <title>Version 0.75.1</title>
       <pubDate>Wed, 04 Nov 2026 15:08:09 +0000</pubDate>
       <sparkle:version>1918</sparkle:version>
