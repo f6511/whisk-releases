@@ -6,6 +6,33 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.78.2</title>
+      <pubDate>Fri, 06 Nov 2026 21:01:11 +0000</pubDate>
+      <sparkle:version>1979</sparkle:version>
+      <sparkle:shortVersionString>0.78.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.78.2 — 2026-11-06
+
+### Bug Fixes
+
+- **meetings:** queue one call tap rebuild at a time, and only for the latest change (WH-279)
+- **chatgpt:** keep a sign-in's callback when the page after it can't be sent (WH-281)
+- **meetings:** check for a cancel after speaker separation returns too (WH-279)
+- **meetings:** don't finish a transcript whose speaker separation was cancelled (WH-279)
+- **meetings:** keep rebuilding the call tap after an output device change (WH-279)
+- **meetings:** watch a note's next recording afresh for the end of its call (WH-279)
+- **meetings:** keep a note's images when its first recording can't be saved (WH-280)
+- **history:** take back an insert whose save failed (WH-280)
+- **chatgpt:** tell a keychain that can't be read from an empty one (WH-281)
+- **chatgpt:** keep waiting past a stray connection or another sign-in's callback (WH-281)
+
+### Reverts
+
+- **meetings:** leave the call tap's rebuild retry for its own change (WH-279)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.78.2/Whisk-0.78.2.zip" length="22590237" type="application/octet-stream" sparkle:edSignature="cE8i4CPtrSC0Dn9OLIh5+CJOFvBMuy3P+Z2KN8A8YlW+6obxd9jl/kqr+nZ26xkdhenDiP5f3AT9Q0jXyreBDw==" />
+    </item>
+    <item>
       <title>Version 0.78.1</title>
       <pubDate>Fri, 06 Nov 2026 18:22:03 +0000</pubDate>
       <sparkle:version>1965</sparkle:version>
