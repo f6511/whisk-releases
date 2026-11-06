@@ -6,6 +6,22 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.76.2</title>
+      <pubDate>Fri, 06 Nov 2026 00:04:39 +0000</pubDate>
+      <sparkle:version>1933</sparkle:version>
+      <sparkle:shortVersionString>0.76.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.76.2 — 2026-11-06
+
+### Bug Fixes
+
+- **speech:** drop a microphone retry that a newer restart overtook (WH-278)
+- **speech:** watch a new microphone engine before it opens (WH-278)
+- **speech:** reopen the microphone on a new engine after a device change (WH-278)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.76.2/Whisk-0.76.2.zip" length="22557232" type="application/octet-stream" sparkle:edSignature="cTlOHQdH27YUuyfewMErjTnMOW9W17pDfSieX3BfiSXbCg9bd2YKwfDHqqssaVDUxXTZu1yFUt0W30UsiWhGAQ==" />
+    </item>
+    <item>
       <title>Version 0.76.1</title>
       <pubDate>Thu, 05 Nov 2026 23:20:39 +0000</pubDate>
       <sparkle:version>1927</sparkle:version>
