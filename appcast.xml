@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.77.0</title>
+      <pubDate>Fri, 06 Nov 2026 13:08:27 +0000</pubDate>
+      <sparkle:version>1947</sparkle:version>
+      <sparkle:shortVersionString>0.77.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.77.0 — 2026-11-06
+
+### Features
+
+- **stats:** name the swap in use next to high memory pressure (WH-293)
+
+### Bug Fixes
+
+- **permissions:** read notification status afresh when asked, stop on cancel (WH-291)
+- **permissions:** await the notification status read when Whisk becomes active (WH-291)
+- **stats:** show a menu badge in full when it changes on its own (WH-292)
+- **permissions:** read the checklist and launch at login when Whisk becomes active (WH-291)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.77.0/Whisk-0.77.0.zip" length="22560020" type="application/octet-stream" sparkle:edSignature="KArIddM0HzrrTrqRA6QoDE6yx2bXC+Zv2GufXoTIOHpq92OMVTyWwyxdOn5UVmAI2FjdPZER3AUZjZmbUWu+Cg==" />
+    </item>
+    <item>
       <title>Version 0.76.4</title>
       <pubDate>Fri, 06 Nov 2026 11:50:46 +0000</pubDate>
       <sparkle:version>1939</sparkle:version>
