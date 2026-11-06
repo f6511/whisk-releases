@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.76.3</title>
+      <pubDate>Fri, 06 Nov 2026 10:30:04 +0000</pubDate>
+      <sparkle:version>1936</sparkle:version>
+      <sparkle:shortVersionString>0.76.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.76.3 — 2026-11-06
+
+### Bug Fixes
+
+- **copy:** remove redundant subtitles and tighten app text
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.76.3/Whisk-0.76.3.zip" length="22556014" type="application/octet-stream" sparkle:edSignature="PirSn0sh/1vdRx80kt7dswnAqAfzbnzD8vIMZvjNDlXGOMRFiEC8MFdE+1Gmosj+1cUvO/YVnQs4L4c1NL+zDw==" />
+    </item>
+    <item>
       <title>Version 0.76.2</title>
       <pubDate>Fri, 06 Nov 2026 00:04:39 +0000</pubDate>
       <sparkle:version>1933</sparkle:version>
