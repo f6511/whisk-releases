@@ -6,6 +6,25 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.78.1</title>
+      <pubDate>Fri, 06 Nov 2026 18:22:03 +0000</pubDate>
+      <sparkle:version>1965</sparkle:version>
+      <sparkle:shortVersionString>0.78.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.78.1 — 2026-11-06
+
+### Bug Fixes
+
+- **meetings:** take the microphone's return notification away when the recording stops (WH-301)
+- **meetings:** leave a running microphone retry alone, and announce its return under a call issue (WH-301)
+- **meetings:** remember a silent microphone through a call issue in between (WH-301)
+- **meetings:** rebuild a microphone that stays silent, and say it is back only once it is heard (WH-301)
+- **meetings:** rebuild a silent microphone and say in the Notes window when it is (WH-301)
+- **meetings:** keep rebuilding a capture after a device change until it works (WH-301, WH-295)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.78.1/Whisk-0.78.1.zip" length="22579717" type="application/octet-stream" sparkle:edSignature="9p445qfTJ1BWDa18EWOYzdCmk0gjiwYMDFkl3iEd2SFKzd2UYgNEpU9mjuu/gg5l+9JUqElW0NwgCeRD7+lgDg==" />
+    </item>
+    <item>
       <title>Version 0.78.0</title>
       <pubDate>Fri, 06 Nov 2026 16:22:00 +0000</pubDate>
       <sparkle:version>1957</sparkle:version>
