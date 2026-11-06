@@ -6,6 +6,28 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.78.0</title>
+      <pubDate>Fri, 06 Nov 2026 16:22:00 +0000</pubDate>
+      <sparkle:version>1957</sparkle:version>
+      <sparkle:shortVersionString>0.78.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.78.0 — 2026-11-06
+
+### Features
+
+- **notes:** add show in finder to the notes inspector (WH-296)
+
+### Bug Fixes
+
+- **notes:** save typing before show in finder writes the folder (WH-296)
+- **notes:** look again when the notes folder moves during show in finder (WH-296)
+- **notes:** keep the caret in place when text checking corrects a word (WH-297)
+- **notes:** follow system text settings while typing a note (WH-298)
+- **notes:** stop autocorrecting what is typed in a note (WH-298)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.78.0/Whisk-0.78.0.zip" length="22575629" type="application/octet-stream" sparkle:edSignature="9iZn7Qw6dk3FgV0Tk4e3CdpZA0LHjzc3DpQObkL0K/k3X5ha2fIEI+KYxB3pEoMVcwReGtaApV0C+9rIomfXBg==" />
+    </item>
+    <item>
       <title>Version 0.77.0</title>
       <pubDate>Fri, 06 Nov 2026 13:08:27 +0000</pubDate>
       <sparkle:version>1947</sparkle:version>
