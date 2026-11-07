@@ -6,6 +6,26 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.81.0</title>
+      <pubDate>Sat, 07 Nov 2026 16:41:14 +0000</pubDate>
+      <sparkle:version>2050</sparkle:version>
+      <sparkle:shortVersionString>0.81.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.81.0 — 2026-11-07
+
+### Features
+
+- **notes:** group the library by date and fold its sections, only today open (WH-305)
+
+### Bug Fixes
+
+- **notes:** bring the library headers' disclosure in from the sidebar's edge (WH-309)
+- **notes:** move a tag's fold with its rename and drop it with the tag
+- **notes:** wrap the section fold setter in a closure for Release
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.81.0/Whisk-0.81.0.zip" length="22788221" type="application/octet-stream" sparkle:edSignature="5Lha2QYwjN1Dcyxe6f5vROoM3N08Mtr8Y4PASqBA2/KbUfCMzMsBcp4VVTedU8H3AXW8MlOK9XVzAoJoVYj5BQ==" />
+    </item>
+    <item>
       <title>Version 0.80.1</title>
       <pubDate>Sat, 07 Nov 2026 16:12:43 +0000</pubDate>
       <sparkle:version>2042</sparkle:version>
