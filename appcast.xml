@@ -6,6 +6,58 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.80.1</title>
+      <pubDate>Sat, 07 Nov 2026 16:12:43 +0000</pubDate>
+      <sparkle:version>2042</sparkle:version>
+      <sparkle:shortVersionString>0.80.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.80.1 — 2026-11-07
+
+### Bug Fixes
+
+- **share:** count a finished volume write as a change so a refresh listed before it keeps the slider
+- **meetings:** keep a folder written since launch out of the unknown-folder cleanup, whatever its creation date
+- **share:** tell a refresh's stale listing by a change count, not the volume it began with
+- **share:** let quitting write the last volume asked for before removing the shared output
+- **meetings:** save the notes panel frame a quit would cut short
+- **share:** end the volume writes when whisk quits
+- **meetings:** let quitting finish the folder removals it queued
+- **share:** keep a volume written while a refresh read batteries
+- **meetings:** keep expired audio a transcription asked for while its removal waited
+- **meetings:** keep folders made since launch out of the unknown-folder cleanup
+- **agenda:** keep planned reminder ids so a cleared one isn't announced again after relaunch
+- **ai:** bound the reply's token count by the start time and leave a full prompt room to fail as too long
+- **switch:** ask again about a window once it has been back on screen or switch was off
+- increase icon contrast
+- **ai:** size recap and snippet draft replies to the context they have left
+- **switch:** run accepted window actions side by side so a commit can't drop one
+- **agenda:** date reminder triggers in gmt so the repeated hour fires on time
+- **agenda:** count reminders an earlier run scheduled as planned
+- **agenda:** end a discord link at the first whitespace
+- **agenda:** open only zoom /j/ links in the zoom app
+- **shell:** give every launch, link, sleep, quit and switch task an owner
+- **settings:** clear openai's loading models state however a fetch ends
+- **ai:** cap and time out apple intelligence clean-up, recaps and snippet drafts
+- **shell:** start no tool in a copy that will quit to move to applications
+- **meetings:** keep a transcript notice from looping the Notes window's layout
+
+### Performance
+
+- **settings:** build the general page's permission checklist once
+- **meetings:** remove recording folders off the main thread
+- **llm:** encode screenshots off the main thread
+- **meetings:** save the notes panel frame once a move or resize stops
+- **snippets:** save editor typing after a pause instead of each key
+- **switch:** check the space before reading ax windows for a commit
+- **switch:** ask apps over ax only about windows that moved
+- **agenda:** keep a hovered row from rebuilding the month pages
+- **agenda:** read the calendars on changes, not every three minutes
+- **internet:** read only the local setting before each request
+- **share:** write volumes and read batteries off the main thread
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.80.1/Whisk-0.80.1.zip" length="22796219" type="application/octet-stream" sparkle:edSignature="hxxY49h7p/mRl+CQnL9yMCo7uunpcmyqxmSPdSLWZzW3UR7ND4JcRw9Wz3EyKrcRkXlA6o2XjfSlqDhm/lwwAg==" />
+    </item>
+    <item>
       <title>Version 0.80.0</title>
       <pubDate>Sat, 07 Nov 2026 10:22:17 +0000</pubDate>
       <sparkle:version>1991</sparkle:version>
