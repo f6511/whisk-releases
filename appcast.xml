@@ -6,6 +6,24 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.80.0</title>
+      <pubDate>Sat, 07 Nov 2026 10:22:17 +0000</pubDate>
+      <sparkle:version>1991</sparkle:version>
+      <sparkle:shortVersionString>0.80.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.80.0 — 2026-11-07
+
+### Features
+
+- **shell:** open each tool's window, panel or menu from its page
+
+### Bug Fixes
+
+- **schedule:** keep an open event from text card when its page opens it
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.80.0/Whisk-0.80.0.zip" length="22634496" type="application/octet-stream" sparkle:edSignature="4SnU2pFY3CVvdbqrnCqJhG+IJJ4rBHbMFAcbimxRVTpg8W34ZaBLl8RKRiSvzPQQml08Mv14a7q+tJu5D8a4Cg==" />
+    </item>
+    <item>
       <title>Version 0.79.0</title>
       <pubDate>Fri, 06 Nov 2026 22:27:03 +0000</pubDate>
       <sparkle:version>1987</sparkle:version>
