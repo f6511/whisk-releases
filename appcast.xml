@@ -6,6 +6,34 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.82.0</title>
+      <pubDate>Sun, 08 Nov 2026 11:28:21 +0000</pubDate>
+      <sparkle:version>2076</sparkle:version>
+      <sparkle:shortVersionString>0.82.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.82.0 — 2026-11-08
+
+### Features
+
+- **ai:** give AI its own pane with each provider's status and switch (WH-310)
+
+### Bug Fixes
+
+- **ai:** retain recap defaults without replacing explicit choices
+- **ai:** preserve configured recap model through provider fallback
+- **ai:** read Checking for a provider turned on since the last check (WH-310)
+- **onboarding:** show Done on a provider's sheet (WH-310)
+- **ai:** skip providers turned off when checking which are set up (WH-310)
+- **ai:** let a tool's own provider turned off give way to the default (WH-310)
+- **changelog:** load releases in pages of five
+
+### Reverts
+
+- **ai:** withdraw recap model fix for explicit choices
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.82.0/Whisk-0.82.0.zip" length="22824414" type="application/octet-stream" sparkle:edSignature="RpWdQUDiCN3GAoxBWQXjtEs5J9qxygnBZ1hmtXUD3PnxJG0VoeAxurvVLUYJgndFZDhagdIxGVITGSMWNUWOCQ==" />
+    </item>
+    <item>
       <title>Version 0.81.0</title>
       <pubDate>Sat, 07 Nov 2026 16:41:14 +0000</pubDate>
       <sparkle:version>2050</sparkle:version>
