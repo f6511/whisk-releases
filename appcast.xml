@@ -6,6 +6,31 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.83.0</title>
+      <pubDate>Tue, 10 Nov 2026 20:49:32 +0000</pubDate>
+      <sparkle:version>2103</sparkle:version>
+      <sparkle:shortVersionString>0.83.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.83.0 — 2026-11-10
+
+### Features
+
+- **meetings:** transcribe the microphone with the call's echo muted (WH-322)
+- **meetings:** find where the microphone heard only the call (WH-322)
+
+### Bug Fixes
+
+- **meetings:** transcribe without muting when no work folder can be made (WH-322)
+- **meetings:** learn the echo path only from a microphone that follows the call (WH-322)
+- **dictate:** read the meter without waiting for a busy listener (WH-319)
+- **dictate:** meter the first channel of interleaved input (WH-319)
+- **dictate:** meter integer samples a device presents unconverted (WH-319)
+- **dictate:** open the microphone through an IOProc, not AVAudioEngine (WH-319)
+- **alfred:** match the workflow icon to the shipping app icon (WH-312)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.83.0/Whisk-0.83.0.zip" length="22834594" type="application/octet-stream" sparkle:edSignature="jGw0Z1HQM8SU3lBq/JoSCZ02TYTm4dyVV8i4hiFKAJ19ResoYrB5nkKq2vWKRxDPqz/Lykegr+5u7Zvw7Y5CAQ==" />
+    </item>
+    <item>
       <title>Version 0.82.0</title>
       <pubDate>Sun, 08 Nov 2026 11:28:21 +0000</pubDate>
       <sparkle:version>2076</sparkle:version>
