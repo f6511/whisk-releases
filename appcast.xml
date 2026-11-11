@@ -6,6 +6,28 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.85.0</title>
+      <pubDate>Wed, 11 Nov 2026 12:20:52 +0000</pubDate>
+      <sparkle:version>2122</sparkle:version>
+      <sparkle:shortVersionString>0.85.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.85.0 — 2026-11-11
+
+### Features
+
+- **notes:** say in the notes folder how a transcript and recap were made, with earlier transcripts (WH-323)
+- **meetings:** keep how each transcript was made and those transcribe again replaces (WH-323)
+
+### Bug Fixes
+
+- **notes:** play from a time near the recording's end and read both times aloud (WH-326)
+- **notes:** draw the recording's player in light glass (WH-326)
+- **notes:** credit no model for a recap nothing says the making of (WH-323)
+- **notes:** keep what review found lost or misnamed in earlier transcripts and recaps (WH-323)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.85.0/Whisk-0.85.0.zip" length="22908008" type="application/octet-stream" sparkle:edSignature="bg0P/bZ7SkrP25NOKn22djNUUuPfRzIQqLmh99LOOHAfHBLVv6CvsCtzN2Upbt41K+YdVVjH86EmT1qBcE5oCg==" />
+    </item>
+    <item>
       <title>Version 0.84.0</title>
       <pubDate>Wed, 11 Nov 2026 08:53:28 +0000</pubDate>
       <sparkle:version>2112</sparkle:version>
