@@ -6,6 +6,24 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.86.0</title>
+      <pubDate>Wed, 11 Nov 2026 14:27:13 +0000</pubDate>
+      <sparkle:version>2126</sparkle:version>
+      <sparkle:shortVersionString>0.86.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.86.0 — 2026-11-11
+
+### Features
+
+- **notes:** record meetings at a chosen quality, without the microphone's rumble (WH-324)
+
+### Bug Fixes
+
+- **notes:** keep the end of a track copied at 16 kHz (WH-324)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.86.0/Whisk-0.86.0.zip" length="22906870" type="application/octet-stream" sparkle:edSignature="y5fnyt/YZA+v7BRUbXNY85YFaHJi1PVnO+1Gh6u8EcPZ9oConXKIxGNcnG6ad0lfU3RJbHv8maDdkKL+yp7WAw==" />
+    </item>
+    <item>
       <title>Version 0.85.0</title>
       <pubDate>Wed, 11 Nov 2026 12:20:52 +0000</pubDate>
       <sparkle:version>2122</sparkle:version>
