@@ -6,6 +6,28 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.84.0</title>
+      <pubDate>Wed, 11 Nov 2026 08:53:28 +0000</pubDate>
+      <sparkle:version>2112</sparkle:version>
+      <sparkle:shortVersionString>0.84.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.84.0 — 2026-11-11
+
+### Features
+
+- **notes:** show the live model and pick the engine in the Transcript inspector (WH-320, WH-321)
+- **notes:** turn the live transcript off, even while recording (WH-321)
+
+### Bug Fixes
+
+- **notes:** show nothing a live session hands over once it is turned off (WH-321)
+- **notes:** end the tag field's AutoFill watch on its own and skip a hidden field (WH-317)
+- **notes:** keep the tags in use offered when the tag field is clicked into (WH-317)
+- **notes:** put the caret in a short note wherever below its text is clicked (WH-318)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.84.0/Whisk-0.84.0.zip" length="22839813" type="application/octet-stream" sparkle:edSignature="qZY7oLFCYdvoUiCVY+ALOQkqjTQjh1Tqoan1AcpBoz5+uaGdZB5b+ae1/i5Y6oSb1lZGjNPLNAOZM3AJx4fnDg==" />
+    </item>
+    <item>
       <title>Version 0.83.0</title>
       <pubDate>Tue, 10 Nov 2026 20:49:32 +0000</pubDate>
       <sparkle:version>2103</sparkle:version>
