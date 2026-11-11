@@ -6,6 +6,26 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.88.0</title>
+      <pubDate>Wed, 11 Nov 2026 16:10:03 +0000</pubDate>
+      <sparkle:version>2143</sparkle:version>
+      <sparkle:shortVersionString>0.88.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.88.0 — 2026-11-11
+
+### Features
+
+- **agenda:** remove an event from the list from its submenu (WH-316)
+- **shell:** show the branch and a test note in whisk dev's sidebar footer (WH-327)
+
+### Bug Fixes
+
+- **agenda:** forget ended removals only on a read, which may bring a later end (WH-316)
+- **agenda:** keep a lengthened removed event out and take back its delivered reminder (WH-316)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.88.0/Whisk-0.88.0.zip" length="22934957" type="application/octet-stream" sparkle:edSignature="rUg+C8l36DjKGX+MUavhlxHpoCQkRwOua81+R/s7zPXyFY2C/2GVga4mS30DtZzZVdJcAjqySe7p0w+KSideCQ==" />
+    </item>
+    <item>
       <title>Version 0.87.0</title>
       <pubDate>Wed, 11 Nov 2026 15:18:35 +0000</pubDate>
       <sparkle:version>2135</sparkle:version>
