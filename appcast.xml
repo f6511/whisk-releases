@@ -6,6 +6,27 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.87.0</title>
+      <pubDate>Wed, 11 Nov 2026 15:18:35 +0000</pubDate>
+      <sparkle:version>2135</sparkle:version>
+      <sparkle:shortVersionString>0.87.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.87.0 — 2026-11-11
+
+### Features
+
+- **notes:** ask for the engine before transcribing a note again (WH-325)
+
+### Bug Fixes
+
+- **notes:** say an edited transcript is kept now that transcribe again keeps it (WH-325)
+- **notes:** present transcribe again as a native form sheet that fits its rows (WH-325)
+- **notes:** end the items that open the transcribe again sheet with an ellipsis (WH-325)
+- **notes:** keep the kept transcript's engine after a failed transcribe again (WH-325)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.87.0/Whisk-0.87.0.zip" length="22915747" type="application/octet-stream" sparkle:edSignature="RG7NM+Lg8GWo/g2LkyppUiKXp1SoeR7Hh2MBInT6/Fix0KiJ9asJlxnXTcJRa4DMwpNzTd8D+cxok2E2BWE/Aw==" />
+    </item>
+    <item>
       <title>Version 0.86.0</title>
       <pubDate>Wed, 11 Nov 2026 14:27:13 +0000</pubDate>
       <sparkle:version>2126</sparkle:version>
