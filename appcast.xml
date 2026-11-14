@@ -6,6 +6,81 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.89.0</title>
+      <pubDate>Sat, 14 Nov 2026 09:32:53 +0000</pubDate>
+      <sparkle:version>2314</sparkle:version>
+      <sparkle:shortVersionString>0.89.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.89.0 — 2026-11-14
+
+### Features
+
+- **notes:** keep every tab at the note's measure, with a full width switch (WH-338)
+- **notes:** delete a note's audio from the inspector (WH-339)
+- **notes:** give tables, code, rules and quotes one 0.75 em margin, folding the blank line touching one (WH-338)
+- **notes:** keep the recap's inspector to every tab's, its setup a Recap Again… sheet (WH-338)
+- **notes:** show a new note as a selected row in the library at once (WH-338)
+- **notes:** delete the library's selected note with Delete and search it with ⌘F (WH-338)
+- **notes:** give library rows a context menu with the inspector's actions (WH-338)
+- **meetings:** pick audio quality from a pop-up (WH-341)
+
+### Bug Fixes
+
+- **stats:** lay out a menu badge replaced while the menu is open on macOS 27.2.1
+- **notes:** keep a note at its top as the title settles, past AppKit's pixel snap (WH-338)
+- **notes:** name the recap's editor recap for voiceover (WH-338)
+- **notes:** resize the window for the inspector at once with reduce motion on (WH-338)
+- **notes:** start the play glyph where the note's text starts (WH-338)
+- **notes:** draw the note's tag names in the label color, as the library does (WH-338)
+- **notes:** offer tags in the system's suggestion menu (WH-338)
+- **notes:** draw the tabs in the toolbar's glass so hover and selection match (WH-338)
+- **notes:** keep copy's room when it turns to copied (WH-338)
+- **notes:** drop the event line's chevron and give it the rows' highlight (WH-338)
+- **notes:** highlight the whole inspector row, star included, inside the card (WH-338)
+- **notes:** keep a note whose audio is being deleted from recording again (WH-339)
+- **notes:** cover the last 12 points above the player so no line shows half legible at its top (WH-338)
+- **notes:** stand a rule under code midway between the fill and the text below (WH-338)
+- **notes:** fill the text column with a table so its edge lines up with code blocks and rules (WH-338)
+- **notes:** stand a table under a list a full margin off its rows, as other blocks (WH-338)
+- **notes:** select a library row, not every row of its note, when grouped by tag (WH-338)
+- **notes:** drop interactive glass from the player so dragging the slider doesn't press it (WH-338)
+- **notes:** stand a block under a list a full margin off its rows (WH-338)
+- **notes:** draw the event line's chevron as an overlay so it can't grow the header (WH-338)
+- **notes:** fit the toolbar's tabs by their measured width, not English constants (WH-338)
+- **notes:** move the library on to a new day at midnight (WH-338)
+- **notes:** cover the fade's last points above the player so a quote bar can't show (WH-338)
+- **notes:** keep a blank line before a heading at full height (WH-338)
+- **notes:** give a heading the same room above with or without a blank line (WH-338)
+- **notes:** remove a note's tag from its chip's menu (WH-338)
+- **notes:** clear the recap's or transcript's focus as its tab hides (WH-340)
+- **notes:** take the focus out of a hidden transcript list (WH-340)
+- **notes:** keep hidden tabs out of focus, Find and live updates (WH-340)
+- **notes:** keep the caret the note asked for as its window comes forward (WH-340)
+- **shell:** drop the main window's sidebar toggle (WH-340)
+- **notes:** let the tag field edit the note shown once editing ends (WH-338)
+- **notes:** fit a new note's toolbar at once and wrap live under a divider drag (WH-340)
+- **notes:** leave a tag section's own tag out of its rows' dots (WH-338)
+- **notes:** keep Yesterday on rows outside the Yesterday section (WH-338)
+- **notes:** show the time on yesterday's rows under the date headers (WH-338)
+- **notes:** date today's and yesterday's recordings as the event line does (WH-338)
+- **notes:** confirm a copy on the control that made it (WH-338)
+- **notes:** date older library rows by day and month (WH-338)
+- **notes:** open a note with the markers on the caret's line hidden (WH-338)
+- **notes:** open a note with the caret at its end (WH-338)
+
+### Performance
+
+- **notes:** measure a keystroke's restyle in a long note of tables and code blocks (WH-338)
+- **notes:** keep each tab once shown instead of building it on every switch (WH-340)
+- **notes:** build only the transcript rows shown (WH-340)
+- **notes:** keep the note's wrap width while its column slides (WH-340)
+- **notes:** grow the window alongside the inspector, not before it (WH-340)
+- **notes:** stop rebuilding the note each frame a sidebar slides (WH-340)
+- **notes:** keep the library's sections until what they are built from changes (WH-338)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.89.0/Whisk-0.89.0.zip" length="23038162" type="application/octet-stream" sparkle:edSignature="pw4+pwiHtSsEkcmLr+bg8hJmf9JmJyg1x2CfBE2oqTqLVga7zeJK3evjmLy0rHXDwyT5eiylH2vAO/kkPaPKBA==" />
+    </item>
+    <item>
       <title>Version 0.88.0</title>
       <pubDate>Wed, 11 Nov 2026 16:10:03 +0000</pubDate>
       <sparkle:version>2143</sparkle:version>
