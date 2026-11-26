@@ -6,6 +6,20 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.90.1</title>
+      <pubDate>Thu, 26 Nov 2026 18:48:59 +0000</pubDate>
+      <sparkle:version>2371</sparkle:version>
+      <sparkle:shortVersionString>0.90.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.90.1 — 2026-11-26
+
+### Bug Fixes
+
+- **switch:** skip apps listed without a process instead of trapping on pid -1 (WH-353)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.90.1/Whisk-0.90.1.zip" length="23108790" type="application/octet-stream" sparkle:edSignature="qPEtwqGrvlyPZBnGH5rHX/7V8yo7yFla5BUhPM0GguE434gZ9/B262qT4WNuOzLiadwvaCN03cK7JMz8hB0fAw==" />
+    </item>
+    <item>
       <title>Version 0.90.0</title>
       <pubDate>Thu, 26 Nov 2026 14:21:20 +0000</pubDate>
       <sparkle:version>2368</sparkle:version>
