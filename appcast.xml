@@ -6,6 +6,56 @@
     <description>Updates for Whisk.</description>
     <language>en</language>
     <item>
+      <title>Version 0.90.0</title>
+      <pubDate>Thu, 26 Nov 2026 14:21:20 +0000</pubDate>
+      <sparkle:version>2368</sparkle:version>
+      <sparkle:shortVersionString>0.90.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown">## 0.90.0 — 2026-11-26
+
+### Features
+
+- **notes:** find in the note with ⌘F, and show and open a search's matches (WH-342)
+- **notes:** say when the recording can't play, with Try Again (WH-342)
+- **notes:** show the tabs as a menu where their symbols don't fit (WH-342)
+- **notes:** name a speaker once per turn, at the body's size (WH-342)
+- **notes:** size the note's text with ⌘+, ⌘− and ⌘0 or the inspector (WH-342)
+- **notes:** drop the inspector's star column for add and remove in context menus (WH-342)
+- **settings:** keep the diagnostic log off until turned on in General (WH-350)
+- **notes:** show the tabs as symbols at every width, ordered Note, Transcript, Recap (WH-346)
+- **dictate:** type words into the field while speaking (WH-348)
+
+### Bug Fixes
+
+- **notes:** drop deleted notes' transcripts at the start of every search (WH-342)
+- **notes:** drop deleted notes' transcripts on every search, not only on a read (WH-342)
+- **notes:** size the notes among a transcript's lines with the note's text (WH-342)
+- **notes:** keep only transcripts read and still in History for search excerpts (WH-342)
+- **notes:** drop the failure bar once a note's audio is gone, no play links with nothing to play (WH-342)
+- **notes:** end a search's reveal once its tab is left (WH-342)
+- **notes:** take ⌘+ from the keypad and with Caps Lock on (WH-342)
+- **notes:** size the live transcript with the note's text (WH-342)
+- **notes:** reveal a match only while it is still asked for, found off the main actor (WH-342)
+- **notes:** open a result on the transcript when only part of the query is in the title (WH-342)
+- **notes:** refresh search excerpts after an edit, read each transcript once per change (WH-342)
+- **notes:** show the player's failure when a recording's files are missing, and look again on Try Again (WH-342)
+- **onboarding:** drop the spaced-out uppercase name under each stage (WH-343)
+- **switch:** log a delayed reveal only when no panel showed yet (WH-350)
+- **switch:** log a permission panel opened with no session (WH-350)
+- **dictate:** stop typing when one of Whisk's menus opens (WH-348)
+- **dictate:** stop typing on a click or key in Whisk's own key window (WH-348)
+- **notes:** float the player over the text and hide it when its controls don't fit (WH-346, WH-347)
+- **notes:** open and close the library from its toggle, making room beside a chosen inspector (WH-346)
+- **dictate:** notice a left field with nothing new heard (WH-348)
+- **input:** leave Whisk's own keystrokes out of fn as a modifier
+
+### Performance
+
+- **notes:** wrap once a frame and keep the title's height out of the note while resizing beside a sidebar (WH-346)
+</description>
+      <enclosure url="https://github.com/f6511/whisk-releases/releases/download/v0.90.0/Whisk-0.90.0.zip" length="23106287" type="application/octet-stream" sparkle:edSignature="VRwcdAWfUAXXZWb2+1aVyEzkr3296o+gYyHq8RCkOse6bI+l+Nxb1cGPvnOyvVV3oO6Fl3BcQ/I4vsWcU7ZLBw==" />
+    </item>
+    <item>
       <title>Version 0.89.0</title>
       <pubDate>Sat, 14 Nov 2026 09:32:53 +0000</pubDate>
       <sparkle:version>2314</sparkle:version>
